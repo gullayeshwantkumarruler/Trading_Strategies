@@ -1,0 +1,99 @@
+panel: 5700 days x 337 stocks, 2004-01-05..2026-08-31
+residuals + OU features ready
+[   0.0 min] year 2010: building regime features (1/17)
+[   0.7 min] year 2010: training FFN / XGB candidates
+[   7.9 min] year 2010: attribution + interventions (val SR FFN 1.83, XGB 1.47)
+[   7.9 min] year 2010 done
+2010 {'FFN': {'baseline': -0.05, 'cross-model stabilised': 0.58, 'cross-model unstabilised': 0.58, 'model-specific stabilised': 0.75, 'model-specific unstabilised': 0.75}, 'XGB': {'baseline': 0.07, 'cross-model stabilised': -0.01, 'cross-model unstabilised': -0.01, 'model-specific stabilised': -0.82, 'model-specific unstabilised': -0.82}}
+[   7.9 min] year 2011: building regime features (2/17)
+[   8.7 min] year 2011: training FFN / XGB candidates
+[  16.0 min] year 2011: attribution + interventions (val SR FFN 0.75, XGB 1.40)
+[  16.1 min] year 2011 done
+2011 {'FFN': {'baseline': -0.25, 'cross-model stabilised': -0.38, 'cross-model unstabilised': 0.23, 'model-specific stabilised': -2.21, 'model-specific unstabilised': -1.15}, 'XGB': {'baseline': -2.02, 'cross-model stabilised': -1.27, 'cross-model unstabilised': -1.25, 'model-specific stabilised': -1.24, 'model-specific unstabilised': -1.04}}
+[  16.1 min] year 2012: building regime features (3/17)
+[  16.8 min] year 2012: training FFN / XGB candidates
+[  24.3 min] year 2012: attribution + interventions (val SR FFN 0.78, XGB 0.53)
+[  24.3 min] year 2012 done
+2012 {'FFN': {'baseline': -1.04, 'cross-model stabilised': -1.0, 'cross-model unstabilised': -1.3, 'model-specific stabilised': -1.48, 'model-specific unstabilised': -2.0}, 'XGB': {'baseline': -1.93, 'cross-model stabilised': -0.74, 'cross-model unstabilised': -2.2, 'model-specific stabilised': -1.0, 'model-specific unstabilised': -2.16}}
+[  24.3 min] year 2013: building regime features (4/17)
+[  25.1 min] year 2013: training FFN / XGB candidates
+[  32.5 min] year 2013: attribution + interventions (val SR FFN -2.30, XGB -2.31)
+[  32.6 min] year 2013 done
+2013 {'FFN': {'baseline': -3.28, 'cross-model stabilised': -3.54, 'cross-model unstabilised': -3.42, 'model-specific stabilised': -2.32, 'model-specific unstabilised': -2.83}, 'XGB': {'baseline': -3.58, 'cross-model stabilised': -2.63, 'cross-model unstabilised': -3.82, 'model-specific stabilised': -2.09, 'model-specific unstabilised': -1.93}}
+[  32.6 min] year 2014: building regime features (5/17)
+[  33.4 min] year 2014: training FFN / XGB candidates
+[  44.5 min] year 2014: attribution + interventions (val SR FFN -0.49, XGB -0.30)
+[  44.6 min] year 2014 done
+2014 {'FFN': {'baseline': -0.23, 'cross-model stabilised': 0.38, 'cross-model unstabilised': 0.66, 'model-specific stabilised': -0.66, 'model-specific unstabilised': -0.19}, 'XGB': {'baseline': -1.2, 'cross-model stabilised': -0.91, 'cross-model unstabilised': -1.13, 'model-specific stabilised': -0.28, 'model-specific unstabilised': -0.66}}
+[  44.6 min] year 2015: building regime features (6/17)
+[  45.6 min] year 2015: training FFN / XGB candidates
+[  56.7 min] year 2015: attribution + interventions (val SR FFN 0.37, XGB -0.07)
+[  56.8 min] year 2015 done
+2015 {'FFN': {'baseline': 0.09, 'cross-model stabilised': 0.14, 'cross-model unstabilised': -0.19, 'model-specific stabilised': -0.02, 'model-specific unstabilised': -0.43}, 'XGB': {'baseline': -1.64, 'cross-model stabilised': -0.64, 'cross-model unstabilised': -0.94, 'model-specific stabilised': 0.43, 'model-specific unstabilised': -2.41}}
+[  56.8 min] year 2016: building regime features (7/17)
+[  57.8 min] year 2016: training FFN / XGB candidates
+[  68.9 min] year 2016: attribution + interventions (val SR FFN -0.77, XGB -1.65)
+[  68.9 min] year 2016 done
+2016 {'FFN': {'baseline': 1.11, 'cross-model stabilised': 0.04, 'cross-model unstabilised': 1.77, 'model-specific stabilised': -0.35, 'model-specific unstabilised': 1.07}, 'XGB': {'baseline': -2.9, 'cross-model stabilised': -3.3, 'cross-model unstabilised': -0.66, 'model-specific stabilised': 0.58, 'model-specific unstabilised': -0.17}}
+[  68.9 min] year 2017: building regime features (8/17)
+[  69.9 min] year 2017: training FFN / XGB candidates
+[  81.1 min] year 2017: attribution + interventions (val SR FFN -0.91, XGB -0.93)
+[  81.1 min] year 2017 done
+2017 {'FFN': {'baseline': 0.47, 'cross-model stabilised': 0.67, 'cross-model unstabilised': 0.18, 'model-specific stabilised': 0.03, 'model-specific unstabilised': 0.8}, 'XGB': {'baseline': -0.13, 'cross-model stabilised': 1.03, 'cross-model unstabilised': 0.7, 'model-specific stabilised': 1.28, 'model-specific unstabilised': 0.27}}
+[  81.1 min] year 2018: building regime features (9/17)
+[  82.1 min] year 2018: training FFN / XGB candidates
+[  90.5 min] year 2018: attribution + interventions (val SR FFN 1.76, XGB 1.26)
+[  90.5 min] year 2018 done
+2018 {'FFN': {'baseline': -1.14, 'cross-model stabilised': -0.34, 'cross-model unstabilised': -0.9, 'model-specific stabilised': -0.11, 'model-specific unstabilised': -1.11}, 'XGB': {'baseline': -0.12, 'cross-model stabilised': 0.08, 'cross-model unstabilised': -0.07, 'model-specific stabilised': 0.13, 'model-specific unstabilised': -0.02}}
+[  90.5 min] year 2019: building regime features (10/17)
+[  91.3 min] year 2019: training FFN / XGB candidates
+[ 100.2 min] year 2019: attribution + interventions (val SR FFN -0.67, XGB -1.73)
+[ 100.2 min] year 2019 done
+2019 {'FFN': {'baseline': 0.58, 'cross-model stabilised': 0.01, 'cross-model unstabilised': 1.05, 'model-specific stabilised': -0.3, 'model-specific unstabilised': 0.87}, 'XGB': {'baseline': -2.15, 'cross-model stabilised': -3.12, 'cross-model unstabilised': -2.57, 'model-specific stabilised': -2.38, 'model-specific unstabilised': -3.56}}
+[ 100.2 min] year 2020: building regime features (11/17)
+[ 101.0 min] year 2020: training FFN / XGB candidates
+[ 108.3 min] year 2020: attribution + interventions (val SR FFN -0.12, XGB 0.00)
+[ 108.3 min] year 2020 done
+2020 {'FFN': {'baseline': -0.68, 'cross-model stabilised': 1.68, 'cross-model unstabilised': 0.86, 'model-specific stabilised': 2.41, 'model-specific unstabilised': 1.29}, 'XGB': {'baseline': 0.98, 'cross-model stabilised': 1.86, 'cross-model unstabilised': 1.75, 'model-specific stabilised': 0.83, 'model-specific unstabilised': 1.61}}
+[ 108.3 min] year 2021: building regime features (12/17)
+[ 109.1 min] year 2021: training FFN / XGB candidates
+[ 116.7 min] year 2021: attribution + interventions (val SR FFN 1.01, XGB 0.98)
+[ 116.7 min] year 2021 done
+2021 {'FFN': {'baseline': 1.81, 'cross-model stabilised': 1.66, 'cross-model unstabilised': 2.02, 'model-specific stabilised': 0.82, 'model-specific unstabilised': 1.64}, 'XGB': {'baseline': 0.27, 'cross-model stabilised': 0.86, 'cross-model unstabilised': -1.02, 'model-specific stabilised': 0.55, 'model-specific unstabilised': -1.71}}
+[ 116.7 min] year 2022: building regime features (13/17)
+[ 117.6 min] year 2022: training FFN / XGB candidates
+[ 126.7 min] year 2022: attribution + interventions (val SR FFN 1.35, XGB 0.13)
+[ 126.8 min] year 2022 done
+2022 {'FFN': {'baseline': -2.68, 'cross-model stabilised': -2.48, 'cross-model unstabilised': -2.45, 'model-specific stabilised': -2.46, 'model-specific unstabilised': -2.57}, 'XGB': {'baseline': -4.89, 'cross-model stabilised': -1.41, 'cross-model unstabilised': -3.83, 'model-specific stabilised': -0.6, 'model-specific unstabilised': -4.16}}
+[ 126.8 min] year 2023: building regime features (14/17)
+[ 127.8 min] year 2023: training FFN / XGB candidates
+[ 137.1 min] year 2023: attribution + interventions (val SR FFN -1.74, XGB -3.92)
+[ 137.2 min] year 2023 done
+2023 {'FFN': {'baseline': 0.07, 'cross-model stabilised': -0.04, 'cross-model unstabilised': -1.52, 'model-specific stabilised': 0.47, 'model-specific unstabilised': -1.17}, 'XGB': {'baseline': -0.11, 'cross-model stabilised': -1.13, 'cross-model unstabilised': -0.73, 'model-specific stabilised': -0.42, 'model-specific unstabilised': -0.14}}
+[ 137.2 min] year 2024: building regime features (15/17)
+[ 138.2 min] year 2024: training FFN / XGB candidates
+[ 147.4 min] year 2024: attribution + interventions (val SR FFN 0.49, XGB -1.67)
+[ 147.4 min] year 2024 done
+2024 {'FFN': {'baseline': -0.95, 'cross-model stabilised': 0.24, 'cross-model unstabilised': -1.19, 'model-specific stabilised': 0.22, 'model-specific unstabilised': -0.89}, 'XGB': {'baseline': -3.77, 'cross-model stabilised': -0.72, 'cross-model unstabilised': -3.42, 'model-specific stabilised': -0.92, 'model-specific unstabilised': -2.57}}
+[ 147.4 min] year 2025: building regime features (16/17)
+[ 148.3 min] year 2025: training FFN / XGB candidates
+[ 156.2 min] year 2025: attribution + interventions (val SR FFN -0.50, XGB -4.58)
+[ 156.3 min] year 2025 done
+2025 {'FFN': {'baseline': -0.31, 'cross-model stabilised': 0.1, 'cross-model unstabilised': -1.49, 'model-specific stabilised': 0.82, 'model-specific unstabilised': -1.31}, 'XGB': {'baseline': -2.32, 'cross-model stabilised': -0.48, 'cross-model unstabilised': -2.63, 'model-specific stabilised': 0.78, 'model-specific unstabilised': -4.04}}
+[ 156.3 min] year 2026: building regime features (17/17)
+[ 157.0 min] year 2026: training FFN / XGB candidates
+[ 164.1 min] year 2026: attribution + interventions (val SR FFN -1.54, XGB -1.81)
+[ 164.2 min] year 2026 done
+2026 {'FFN': {'baseline': -0.52, 'cross-model stabilised': 0.08, 'cross-model unstabilised': -0.94, 'model-specific stabilised': -0.55, 'model-specific unstabilised': -2.04}, 'XGB': {'baseline': -2.6, 'cross-model stabilised': -0.06, 'cross-model unstabilised': -1.99, 'model-specific stabilised': 0.19, 'model-specific unstabilised': -1.76}}
+model                        rule  SR_gross  SR_net  avg_daily_turnover  dSR_net_vs_base  p_value_boot
+  XGB                    baseline     1.279  -1.530               0.807            0.000           NaN
+  XGB model-specific unstabilised     1.075  -1.430               0.714            0.101         0.601
+  XGB   model-specific stabilised     1.297  -0.344               0.426            1.187         0.000
+  XGB    cross-model unstabilised     1.222  -1.320               0.721            0.210         0.239
+  XGB      cross-model stabilised     1.003  -0.715               0.456            0.816         0.000
+  FFN                    baseline     1.373  -0.247               0.705            0.000           NaN
+  FFN model-specific unstabilised     1.149  -0.423               0.601           -0.177         0.433
+  FFN   model-specific stabilised     1.200  -0.142               0.485            0.105         0.728
+  FFN    cross-model unstabilised     1.367  -0.254               0.638           -0.007         0.960
+  FFN      cross-model stabilised     1.296   0.094               0.448            0.341         0.171
+p8 exit 0

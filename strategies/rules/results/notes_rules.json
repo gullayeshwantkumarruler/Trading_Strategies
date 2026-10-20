@@ -1,0 +1,69 @@
+{
+  "jump_model.lambda_usage": {
+    "US": {
+      "lam100": 0.57,
+      "lam30": 0.13,
+      "lam5": 0.13,
+      "lam15": 0.11,
+      "lam50": 0.06
+    },
+    "Europe": {
+      "lam5": 0.38,
+      "lam100": 0.36,
+      "lam30": 0.13,
+      "lam50": 0.08,
+      "lam15": 0.05
+    },
+    "Japan": {
+      "lam30": 0.34,
+      "lam50": 0.24,
+      "lam15": 0.22,
+      "lam5": 0.1,
+      "lam100": 0.09
+    },
+    "China": {
+      "lam5": 0.73,
+      "lam50": 0.15,
+      "lam100": 0.11,
+      "lam30": 0.01
+    }
+  },
+  "sector.bear_gate_share": 0.21739130434782608,
+  "ml4t_engine.sector_parity": {
+    "daily_corr": 0.9998938287879786,
+    "tracking_error_ann": 0.0022546798463735766,
+    "engine_final_value": 10757636.018716509,
+    "engine_total_commission": 90248.99749772028,
+    "engine_total_slippage": 60165.96436692901,
+    "engine_num_fills": 1897,
+    "engine_sharpe_reported": 0.6400368657777977,
+    "engine_cagr_reported": 0.08912836530833035
+  },
+  "ml4t_engine.sector_diag_summary": {
+    "total_return": 9.7576,
+    "annual_return": 0.0893,
+    "annual_volatility": 0.1517,
+    "sharpe_ratio": 0.64,
+    "sortino_ratio": 0.9016,
+    "calmar_ratio": 0.273,
+    "omega_ratio": 1.1221,
+    "tail_ratio": 0.9496,
+    "max_drawdown": -0.3271,
+    "skewness": -0.185,
+    "kurtosis": 6.2808,
+    "var_95": -0.0152,
+    "cvar_95": -0.0226,
+    "stability": 0.8306,
+    "win_rate": 0.5234,
+    "profit_factor": 1.1221,
+    "avg_win": 0.0068,
+    "avg_loss": -0.0072
+  },
+  "ml4t_engine.jm_parity": {
+    "daily_corr": 0.9998636982108375,
+    "tracking_error_ann": 0.0019492942327489792,
+    "engine_num_fills": 33,
+    "engine_total_costs": 104718.6834016915
+  },
+  "failures": {}
+}

@@ -1,0 +1,70 @@
+[Regional ETFs] panel (5255, 171), 2005-11-17..2026-10-19
+  dev grid 1/4 test 0/136  elapsed 0.0 min
+  dev grid 1/4 test 25/136  elapsed 1.0 min
+  dev grid 1/4 test 50/136  elapsed 1.9 min
+  dev grid 1/4 test 75/136  elapsed 2.9 min
+  dev grid 1/4 test 100/136  elapsed 3.8 min
+  dev grid 1/4 test 125/136  elapsed 4.7 min
+  dev score {'eta': 0.05, 'max_depth': 2, 'rounds': 100, 'lam': 0.05, 'mcw': 20} -0.846
+  dev grid 2/4 test 0/136  elapsed 5.1 min
+  dev grid 2/4 test 25/136  elapsed 6.7 min
+  dev grid 2/4 test 50/136  elapsed 8.4 min
+  dev grid 2/4 test 75/136  elapsed 10.4 min
+  dev grid 2/4 test 100/136  elapsed 12.2 min
+  dev grid 2/4 test 125/136  elapsed 13.7 min
+  dev score {'eta': 0.05, 'max_depth': 3, 'rounds': 100, 'lam': 0.05, 'mcw': 20} -0.548
+  dev grid 3/4 test 0/136  elapsed 14.6 min
+  dev grid 3/4 test 25/136  elapsed 16.5 min
+  dev grid 3/4 test 50/136  elapsed 18.4 min
+  dev grid 3/4 test 75/136  elapsed 20.3 min
+  dev grid 3/4 test 100/136  elapsed 22.2 min
+  dev grid 3/4 test 125/136  elapsed 24.1 min
+  dev score {'eta': 0.05, 'max_depth': 3, 'rounds': 100, 'lam': 1.0, 'mcw': 20} -0.549
+  dev grid 4/4 test 0/136  elapsed 24.9 min
+  dev grid 4/4 test 25/136  elapsed 25.5 min
+  dev grid 4/4 test 50/136  elapsed 26.3 min
+  dev grid 4/4 test 75/136  elapsed 27.1 min
+  dev grid 4/4 test 100/136  elapsed 27.8 min
+  dev grid 4/4 test 125/136  elapsed 28.5 min
+  dev score {'eta': 0.1, 'max_depth': 2, 'rounds': 60, 'lam': 1.0, 'mcw': 20} -0.762
+[Regional ETFs] selected {'eta': 0.05, 'max_depth': 3, 'rounds': 100, 'lam': 0.05, 'mcw': 20}
+  [Regional ETFs] decision 1/165 2013-01-30 elapsed 0.3 min KB w= {'SPY': np.float32(0.07), 'EZU': np.float32(0.05), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.43), 'TLT': np.float32(0.23), 'GLD': np.float32(0.18), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 6/165 2013-07-01 elapsed 2.0 min KB w= {'SPY': np.float32(0.27), 'EZU': np.float32(0.08), 'EWJ': np.float32(0.04), 'FXI': np.float32(0.06), 'TLT': np.float32(0.32), 'GLD': np.float32(0.22), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 11/165 2013-11-27 elapsed 3.9 min KB w= {'SPY': np.float32(0.76), 'EZU': np.float32(0.07), 'EWJ': np.float32(0.04), 'FXI': np.float32(0.03), 'TLT': np.float32(0.06), 'GLD': np.float32(0.04), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 16/165 2014-05-01 elapsed 5.6 min KB w= {'SPY': np.float32(0.08), 'EZU': np.float32(0.38), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.46), 'TLT': np.float32(0.02), 'GLD': np.float32(0.05), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 21/165 2014-09-30 elapsed 7.4 min KB w= {'SPY': np.float32(0.09), 'EZU': np.float32(0.21), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.54), 'TLT': np.float32(0.08), 'GLD': np.float32(0.04), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 26/165 2015-03-03 elapsed 9.2 min KB w= {'SPY': np.float32(0.06), 'EZU': np.float32(0.22), 'EWJ': np.float32(0.02), 'FXI': np.float32(0.41), 'TLT': np.float32(0.21), 'GLD': np.float32(0.08), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 31/165 2015-07-31 elapsed 11.0 min KB w= {'SPY': np.float32(0.61), 'EZU': np.float32(0.12), 'EWJ': np.float32(0.02), 'FXI': np.float32(0.18), 'TLT': np.float32(0.04), 'GLD': np.float32(0.02), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 36/165 2015-12-30 elapsed 12.4 min KB w= {'SPY': np.float32(0.05), 'EZU': np.float32(0.03), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.8), 'TLT': np.float32(0.04), 'GLD': np.float32(0.06), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 41/165 2016-06-01 elapsed 14.0 min KB w= {'SPY': np.float32(0.19), 'EZU': np.float32(0.26), 'EWJ': np.float32(0.05), 'FXI': np.float32(0.23), 'TLT': np.float32(0.22), 'GLD': np.float32(0.04), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 46/165 2016-10-28 elapsed 15.5 min KB w= {'SPY': np.float32(0.13), 'EZU': np.float32(0.19), 'EWJ': np.float32(0.21), 'FXI': np.float32(0.29), 'TLT': np.float32(0.14), 'GLD': np.float32(0.03), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 51/165 2017-03-31 elapsed 17.0 min KB w= {'SPY': np.float32(0.1), 'EZU': np.float32(0.65), 'EWJ': np.float32(0.06), 'FXI': np.float32(0.05), 'TLT': np.float32(0.07), 'GLD': np.float32(0.05), 'CASH': np.float32(0.02)}
+  [Regional ETFs] decision 56/165 2017-08-30 elapsed 18.6 min KB w= {'SPY': np.float32(0.01), 'EZU': np.float32(0.02), 'EWJ': np.float32(0.0), 'FXI': np.float32(0.92), 'TLT': np.float32(0.02), 'GLD': np.float32(0.03), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 61/165 2018-01-31 elapsed 20.1 min KB w= {'SPY': np.float32(0.05), 'EZU': np.float32(0.09), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.63), 'TLT': np.float32(0.1), 'GLD': np.float32(0.1), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 66/165 2018-07-02 elapsed 21.7 min KB w= {'SPY': np.float32(0.01), 'EZU': np.float32(0.02), 'EWJ': np.float32(0.02), 'FXI': np.float32(0.37), 'TLT': np.float32(0.51), 'GLD': np.float32(0.06), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 71/165 2018-11-29 elapsed 23.3 min KB w= {'SPY': np.float32(0.02), 'EZU': np.float32(0.04), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.15), 'TLT': np.float32(0.59), 'GLD': np.float32(0.17), 'CASH': np.float32(0.02)}
+  [Regional ETFs] decision 76/165 2019-05-03 elapsed 24.9 min KB w= {'SPY': np.float32(0.23), 'EZU': np.float32(0.06), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.52), 'TLT': np.float32(0.11), 'GLD': np.float32(0.04), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 81/165 2019-10-02 elapsed 26.5 min KB w= {'SPY': np.float32(0.04), 'EZU': np.float32(0.48), 'EWJ': np.float32(0.04), 'FXI': np.float32(0.36), 'TLT': np.float32(0.04), 'GLD': np.float32(0.04), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 86/165 2020-03-04 elapsed 28.0 min KB w= {'SPY': np.float32(0.14), 'EZU': np.float32(0.21), 'EWJ': np.float32(0.05), 'FXI': np.float32(0.51), 'TLT': np.float32(0.07), 'GLD': np.float32(0.02), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 91/165 2020-08-11 elapsed 29.6 min KB w= {'SPY': np.float32(0.07), 'EZU': np.float32(0.06), 'EWJ': np.float32(0.02), 'FXI': np.float32(0.08), 'TLT': np.float32(0.73), 'GLD': np.float32(0.04), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 96/165 2021-01-11 elapsed 31.3 min KB w= {'SPY': np.float32(0.31), 'EZU': np.float32(0.37), 'EWJ': np.float32(0.07), 'FXI': np.float32(0.12), 'TLT': np.float32(0.08), 'GLD': np.float32(0.04), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 101/165 2021-06-11 elapsed 33.0 min KB w= {'SPY': np.float32(0.13), 'EZU': np.float32(0.79), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.05), 'TLT': np.float32(0.01), 'GLD': np.float32(0.01), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 106/165 2021-11-09 elapsed 34.7 min KB w= {'SPY': np.float32(0.66), 'EZU': np.float32(0.16), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.07), 'TLT': np.float32(0.06), 'GLD': np.float32(0.02), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 111/165 2022-04-11 elapsed 36.4 min KB w= {'SPY': np.float32(0.1), 'EZU': np.float32(0.04), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.43), 'TLT': np.float32(0.08), 'GLD': np.float32(0.33), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 116/165 2022-09-12 elapsed 38.1 min KB w= {'SPY': np.float32(0.08), 'EZU': np.float32(0.02), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.04), 'TLT': np.float32(0.19), 'GLD': np.float32(0.64), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 121/165 2023-02-10 elapsed 39.8 min KB w= {'SPY': np.float32(0.3), 'EZU': np.float32(0.15), 'EWJ': np.float32(0.02), 'FXI': np.float32(0.18), 'TLT': np.float32(0.14), 'GLD': np.float32(0.19), 'CASH': np.float32(0.02)}
+  [Regional ETFs] decision 126/165 2023-07-14 elapsed 41.6 min KB w= {'SPY': np.float32(0.58), 'EZU': np.float32(0.1), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.1), 'TLT': np.float32(0.09), 'GLD': np.float32(0.09), 'CASH': np.float32(0.02)}
+  [Regional ETFs] decision 131/165 2023-12-12 elapsed 43.4 min KB w= {'SPY': np.float32(0.12), 'EZU': np.float32(0.29), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.24), 'TLT': np.float32(0.26), 'GLD': np.float32(0.04), 'CASH': np.float32(0.02)}
+  [Regional ETFs] decision 136/165 2024-05-14 elapsed 45.1 min KB w= {'SPY': np.float32(0.04), 'EZU': np.float32(0.03), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.8), 'TLT': np.float32(0.03), 'GLD': np.float32(0.08), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 141/165 2024-10-14 elapsed 46.9 min KB w= {'SPY': np.float32(0.04), 'EZU': np.float32(0.03), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.59), 'TLT': np.float32(0.07), 'GLD': np.float32(0.26), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 146/165 2025-03-18 elapsed 48.7 min KB w= {'SPY': np.float32(0.27), 'EZU': np.float32(0.09), 'EWJ': np.float32(0.02), 'FXI': np.float32(0.43), 'TLT': np.float32(0.05), 'GLD': np.float32(0.13), 'CASH': np.float32(0.02)}
+  [Regional ETFs] decision 151/165 2025-08-18 elapsed 50.5 min KB w= {'SPY': np.float32(0.1), 'EZU': np.float32(0.06), 'EWJ': np.float32(0.02), 'FXI': np.float32(0.17), 'TLT': np.float32(0.05), 'GLD': np.float32(0.58), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 156/165 2026-01-16 elapsed 52.3 min KB w= {'SPY': np.float32(0.03), 'EZU': np.float32(0.02), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.09), 'TLT': np.float32(0.04), 'GLD': np.float32(0.8), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 161/165 2026-06-18 elapsed 54.1 min KB w= {'SPY': np.float32(0.18), 'EZU': np.float32(0.06), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.35), 'TLT': np.float32(0.06), 'GLD': np.float32(0.31), 'CASH': np.float32(0.02)}
+                method     CAGR      Vol   Sharpe     MaxDD  turnover_ann
+            KellyBoost 0.020981 0.161687 0.098815 -0.355567      4.018730
+Two-stage LGBM + Kelly 0.032823 0.196779 0.171787 -0.507865      8.043839
+  Multiclass surrogate 0.064588 0.136671 0.395254 -0.322653      3.005377
+   Unconditional Kelly 0.042703 0.154021 0.232498 -0.368576      0.709118
+          Equal weight 0.064438 0.102852 0.484559 -0.244827      0.200050
+p4r exit 0

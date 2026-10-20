@@ -1,0 +1,63 @@
+panel (965400, 32) features 29
+XGB best {'score': -1.3137968087094118, 'n': 17} [{'ann_ret': np.float64(-0.08644623522165906), 'sharpe': np.float64(-0.5129275331396062), 'mdd': 0.13026010604231053}, {'ann_ret': np.float64(-0.0715366092949562), 'sharpe': np.float64(-0.6338094248481879), 'mdd': 0.09784131100545412}, {'ann_ret': np.float64(-0.044050894638033244), 'sharpe': np.float64(-0.35073833818342376), 'mdd': 0.12454255889442778}]
+LR best {'score': 0.10485922411985468, 'n': 17}
+
+Early stopping occurred at epoch 7 with best_epoch = 3 and best_val_0_logloss = 1.06112
+
+Early stopping occurred at epoch 4 with best_epoch = 0 and best_val_0_logloss = 1.10095
+
+Early stopping occurred at epoch 6 with best_epoch = 2 and best_val_0_logloss = 1.09746
+
+Early stopping occurred at epoch 6 with best_epoch = 2 and best_val_0_logloss = 1.01595
+
+Early stopping occurred at epoch 10 with best_epoch = 6 and best_val_0_logloss = 1.17988
+
+Early stopping occurred at epoch 7 with best_epoch = 3 and best_val_0_logloss = 1.07509
+
+Early stopping occurred at epoch 6 with best_epoch = 2 and best_val_0_logloss = 1.09224
+
+Early stopping occurred at epoch 4 with best_epoch = 0 and best_val_0_logloss = 1.15882
+
+Early stopping occurred at epoch 4 with best_epoch = 0 and best_val_0_logloss = 1.07744
+
+Early stopping occurred at epoch 7 with best_epoch = 3 and best_val_0_logloss = 1.14217
+
+Early stopping occurred at epoch 4 with best_epoch = 0 and best_val_0_logloss = 1.19484
+
+Early stopping occurred at epoch 7 with best_epoch = 3 and best_val_0_logloss = 1.01278
+TabNet best {'score': -1.3268510655196746, 'n': 22} [{'ann_ret': np.float64(-0.03293348353077585), 'sharpe': np.float64(-0.3742020230881912), 'mdd': 0.06443154100437143}, {'ann_ret': np.float64(-0.04942145172757717), 'sharpe': np.float64(-0.9172571551009615), 'mdd': 0.08240220188089042}, {'ann_ret': np.float64(-0.05136230562641708), 'sharpe': np.float64(-1.011904199125671), 'mdd': 0.07027933177160017}]
+
+Early stopping occurred at epoch 7 with best_epoch = 3 and best_val_0_logloss = 1.06112
+  model   ann_ret    sharpe       mdd  turnover_daily  long_precision
+ LogReg -0.016498 -0.034544 -0.109962        1.073198        0.223576
+XGBoost -0.086446 -0.512928 -0.130260        1.150148        0.228263
+ TabNet -0.032933 -0.374202 -0.064432        1.129000        0.171134
+ Hybrid -0.045617 -0.358235 -0.099682        1.212536        0.205074
+
+Early stopping occurred at epoch 4 with best_epoch = 0 and best_val_0_logloss = 1.10095
+  model   ann_ret    sharpe       mdd  turnover_daily  long_precision
+ LogReg  0.065747  0.583233 -0.049081        1.302975        0.219765
+XGBoost -0.071537 -0.633809 -0.097841        1.124866        0.192706
+ TabNet -0.049421 -0.917257 -0.082402        1.372585        0.125091
+ Hybrid -0.040183 -0.604252 -0.098043        1.372500        0.168211
+
+Early stopping occurred at epoch 6 with best_epoch = 2 and best_val_0_logloss = 1.09746
+  model   ann_ret    sharpe       mdd  turnover_daily  long_precision
+ LogReg  0.107043  0.946313 -0.062978        1.255558        0.220822
+XGBoost -0.044051 -0.350738 -0.124543        1.251250        0.211251
+ TabNet -0.051362 -1.011904 -0.070279        1.407774        0.151335
+ Hybrid  0.070704  0.961831 -0.046945        1.381799        0.189223
+
+Early stopping occurred at epoch 9 with best_epoch = 5 and best_val_0_logloss = 1.04784
+  model   ann_ret    sharpe       mdd  turnover_daily  long_precision
+ LogReg  0.038452  0.382605 -0.094182        1.120515        0.224471
+XGBoost  0.129470  1.084020 -0.084644        1.241774        0.219529
+ TabNet -0.018282 -0.174936 -0.094654        1.481747        0.187455
+ Hybrid  0.005784  0.107305 -0.127056        1.441083        0.216842
+
+Early stopping occurred at epoch 9 with best_epoch = 5 and best_val_0_logloss = 1.04784
+  model   ann_ret    sharpe       mdd  turnover_daily  long_precision
+ LogReg -0.324297 -1.594812 -0.298697        0.827669        0.226765
+XGBoost -0.045734 -0.140931 -0.163578        1.152125        0.250000
+ TabNet -0.093958 -0.818098 -0.108514        1.427598        0.200455
+ Hybrid -0.137919 -0.793169 -0.156025        1.355995        0.234211

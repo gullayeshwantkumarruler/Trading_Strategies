@@ -1,0 +1,167 @@
+[Paper legs (US)] panel (6314, 180), 2001-08-30..2026-10-19
+  dev grid 1/4 test 0/232  elapsed 0.0 min
+  dev grid 1/4 test 25/232  elapsed 1.9 min
+  dev grid 1/4 test 50/232  elapsed 3.7 min
+  dev grid 1/4 test 75/232  elapsed 5.6 min
+  dev grid 1/4 test 100/232  elapsed 7.4 min
+  dev grid 1/4 test 125/232  elapsed 9.2 min
+  dev grid 1/4 test 150/232  elapsed 11.2 min
+  dev grid 1/4 test 175/232  elapsed 13.6 min
+  dev grid 1/4 test 200/232  elapsed 15.3 min
+  dev grid 1/4 test 225/232  elapsed 17.1 min
+  dev score {'eta': 0.05, 'max_depth': 2, 'rounds': 100, 'lam': 0.05, 'mcw': 20} 0.788
+  dev grid 2/4 test 0/232  elapsed 17.7 min
+  dev grid 2/4 test 25/232  elapsed 20.7 min
+  dev grid 2/4 test 50/232  elapsed 24.6 min
+  dev grid 2/4 test 75/232  elapsed 27.7 min
+  dev grid 2/4 test 100/232  elapsed 30.8 min
+  dev grid 2/4 test 125/232  elapsed 34.6 min
+  dev grid 2/4 test 150/232  elapsed 38.5 min
+  dev grid 2/4 test 175/232  elapsed 41.7 min
+  dev grid 2/4 test 200/232  elapsed 44.9 min
+  dev grid 2/4 test 225/232  elapsed 48.0 min
+  dev score {'eta': 0.05, 'max_depth': 3, 'rounds': 100, 'lam': 0.05, 'mcw': 20} 0.806
+  dev grid 3/4 test 0/232  elapsed 49.7 min
+  dev grid 3/4 test 25/232  elapsed 53.8 min
+  dev grid 3/4 test 50/232  elapsed 56.6 min
+  dev grid 3/4 test 75/232  elapsed 59.4 min
+  dev grid 3/4 test 100/232  elapsed 62.4 min
+  dev grid 3/4 test 125/232  elapsed 65.2 min
+  dev grid 3/4 test 150/232  elapsed 70.3 min
+  dev grid 3/4 test 175/232  elapsed 73.2 min
+  dev grid 3/4 test 200/232  elapsed 76.3 min
+  dev grid 3/4 test 225/232  elapsed 79.6 min
+  dev score {'eta': 0.05, 'max_depth': 3, 'rounds': 100, 'lam': 1.0, 'mcw': 20} 1.079
+  dev grid 4/4 test 0/232  elapsed 80.5 min
+  dev grid 4/4 test 25/232  elapsed 81.8 min
+  dev grid 4/4 test 50/232  elapsed 83.0 min
+  dev grid 4/4 test 75/232  elapsed 84.3 min
+  dev grid 4/4 test 100/232  elapsed 85.2 min
+  dev grid 4/4 test 125/232  elapsed 86.2 min
+  dev grid 4/4 test 150/232  elapsed 87.1 min
+  dev grid 4/4 test 175/232  elapsed 88.2 min
+  dev grid 4/4 test 200/232  elapsed 89.1 min
+  dev grid 4/4 test 225/232  elapsed 89.9 min
+  dev score {'eta': 0.1, 'max_depth': 2, 'rounds': 60, 'lam': 1.0, 'mcw': 20} 0.921
+[Paper legs (US)] selected {'eta': 0.05, 'max_depth': 3, 'rounds': 100, 'lam': 1.0, 'mcw': 20}
+  [Paper legs (US)] decision 1/165 2013-01-30 elapsed 0.4 min KB w= {'VIGRX': np.float32(0.06), 'VIVAX': np.float32(0.09), 'VUSTX': np.float32(0.15), 'VGTSX': np.float32(0.09), 'VGENX': np.float32(0.1), 'GC=F': np.float32(0.12), 'SI=F': np.float32(0.32), 'CASH': np.float32(0.06)}
+  [Paper legs (US)] decision 6/165 2013-07-01 elapsed 2.4 min KB w= {'VIGRX': np.float32(0.03), 'VIVAX': np.float32(0.05), 'VUSTX': np.float32(0.74), 'VGTSX': np.float32(0.02), 'VGENX': np.float32(0.02), 'GC=F': np.float32(0.05), 'SI=F': np.float32(0.05), 'CASH': np.float32(0.05)}
+  [Paper legs (US)] decision 11/165 2013-11-27 elapsed 4.7 min KB w= {'VIGRX': np.float32(0.12), 'VIVAX': np.float32(0.13), 'VUSTX': np.float32(0.06), 'VGTSX': np.float32(0.09), 'VGENX': np.float32(0.09), 'GC=F': np.float32(0.07), 'SI=F': np.float32(0.39), 'CASH': np.float32(0.05)}
+  [Paper legs (US)] decision 16/165 2014-05-01 elapsed 7.1 min KB w= {'VIGRX': np.float32(0.1), 'VIVAX': np.float32(0.15), 'VUSTX': np.float32(0.09), 'VGTSX': np.float32(0.1), 'VGENX': np.float32(0.21), 'GC=F': np.float32(0.07), 'SI=F': np.float32(0.24), 'CASH': np.float32(0.04)}
+  [Paper legs (US)] decision 21/165 2014-09-30 elapsed 9.6 min KB w= {'VIGRX': np.float32(0.2), 'VIVAX': np.float32(0.34), 'VUSTX': np.float32(0.08), 'VGTSX': np.float32(0.1), 'VGENX': np.float32(0.12), 'GC=F': np.float32(0.04), 'SI=F': np.float32(0.08), 'CASH': np.float32(0.04)}
+  [Paper legs (US)] decision 26/165 2015-03-03 elapsed 12.0 min KB w= {'VIGRX': np.float32(0.18), 'VIVAX': np.float32(0.21), 'VUSTX': np.float32(0.18), 'VGTSX': np.float32(0.05), 'VGENX': np.float32(0.07), 'GC=F': np.float32(0.1), 'SI=F': np.float32(0.15), 'CASH': np.float32(0.05)}
+  [Paper legs (US)] decision 31/165 2015-07-31 elapsed 14.4 min KB w= {'VIGRX': np.float32(0.28), 'VIVAX': np.float32(0.48), 'VUSTX': np.float32(0.07), 'VGTSX': np.float32(0.06), 'VGENX': np.float32(0.05), 'GC=F': np.float32(0.02), 'SI=F': np.float32(0.02), 'CASH': np.float32(0.03)}
+  [Paper legs (US)] decision 36/165 2015-12-30 elapsed 16.9 min KB w= {'VIGRX': np.float32(0.03), 'VIVAX': np.float32(0.04), 'VUSTX': np.float32(0.1), 'VGTSX': np.float32(0.03), 'VGENX': np.float32(0.05), 'GC=F': np.float32(0.06), 'SI=F': np.float32(0.69), 'CASH': np.float32(0.02)}
+  [Paper legs (US)] decision 41/165 2016-06-01 elapsed 19.4 min KB w= {'VIGRX': np.float32(0.09), 'VIVAX': np.float32(0.1), 'VUSTX': np.float32(0.1), 'VGTSX': np.float32(0.08), 'VGENX': np.float32(0.26), 'GC=F': np.float32(0.08), 'SI=F': np.float32(0.26), 'CASH': np.float32(0.04)}
+  [Paper legs (US)] decision 46/165 2016-10-28 elapsed 22.2 min KB w= {'VIGRX': np.float32(0.03), 'VIVAX': np.float32(0.04), 'VUSTX': np.float32(0.02), 'VGTSX': np.float32(0.03), 'VGENX': np.float32(0.09), 'GC=F': np.float32(0.04), 'SI=F': np.float32(0.74), 'CASH': np.float32(0.01)}
+  [Paper legs (US)] decision 51/165 2017-03-31 elapsed 24.8 min KB w= {'VIGRX': np.float32(0.01), 'VIVAX': np.float32(0.01), 'VUSTX': np.float32(0.01), 'VGTSX': np.float32(0.01), 'VGENX': np.float32(0.04), 'GC=F': np.float32(0.02), 'SI=F': np.float32(0.88), 'CASH': np.float32(0.01)}
+  [Paper legs (US)] decision 56/165 2017-08-30 elapsed 27.5 min KB w= {'VIGRX': np.float32(0.06), 'VIVAX': np.float32(0.08), 'VUSTX': np.float32(0.07), 'VGTSX': np.float32(0.07), 'VGENX': np.float32(0.12), 'GC=F': np.float32(0.08), 'SI=F': np.float32(0.51), 'CASH': np.float32(0.02)}
+  [Paper legs (US)] decision 61/165 2018-01-31 elapsed 30.2 min KB w= {'VIGRX': np.float32(0.13), 'VIVAX': np.float32(0.16), 'VUSTX': np.float32(0.07), 'VGTSX': np.float32(0.18), 'VGENX': np.float32(0.16), 'GC=F': np.float32(0.05), 'SI=F': np.float32(0.22), 'CASH': np.float32(0.03)}
+  [Paper legs (US)] decision 66/165 2018-07-02 elapsed 32.9 min KB w= {'VIGRX': np.float32(0.09), 'VIVAX': np.float32(0.08), 'VUSTX': np.float32(0.07), 'VGTSX': np.float32(0.04), 'VGENX': np.float32(0.06), 'GC=F': np.float32(0.09), 'SI=F': np.float32(0.55), 'CASH': np.float32(0.03)}
+  [Paper legs (US)] decision 71/165 2018-11-29 elapsed 35.3 min KB w= {'VIGRX': np.float32(0.04), 'VIVAX': np.float32(0.04), 'VUSTX': np.float32(0.12), 'VGTSX': np.float32(0.03), 'VGENX': np.float32(0.04), 'GC=F': np.float32(0.16), 'SI=F': np.float32(0.55), 'CASH': np.float32(0.03)}
+  [Paper legs (US)] decision 76/165 2019-05-03 elapsed 37.3 min KB w= {'VIGRX': np.float32(0.43), 'VIVAX': np.float32(0.27), 'VUSTX': np.float32(0.04), 'VGTSX': np.float32(0.05), 'VGENX': np.float32(0.07), 'GC=F': np.float32(0.02), 'SI=F': np.float32(0.08), 'CASH': np.float32(0.02)}
+  [Paper legs (US)] decision 81/165 2019-10-02 elapsed 39.3 min KB w= {'VIGRX': np.float32(0.14), 'VIVAX': np.float32(0.29), 'VUSTX': np.float32(0.05), 'VGTSX': np.float32(0.04), 'VGENX': np.float32(0.17), 'GC=F': np.float32(0.08), 'SI=F': np.float32(0.17), 'CASH': np.float32(0.04)}
+  [Paper legs (US)] decision 86/165 2020-03-04 elapsed 41.3 min KB w= {'VIGRX': np.float32(0.44), 'VIVAX': np.float32(0.2), 'VUSTX': np.float32(0.08), 'VGTSX': np.float32(0.07), 'VGENX': np.float32(0.08), 'GC=F': np.float32(0.03), 'SI=F': np.float32(0.08), 'CASH': np.float32(0.03)}
+  [Paper legs (US)] decision 91/165 2020-08-11 elapsed 43.3 min KB w= {'VIGRX': np.float32(0.03), 'VIVAX': np.float32(0.02), 'VUSTX': np.float32(0.01), 'VGTSX': np.float32(0.02), 'VGENX': np.float32(0.04), 'GC=F': np.float32(0.02), 'SI=F': np.float32(0.84), 'CASH': np.float32(0.01)}
+  [Paper legs (US)] decision 96/165 2021-01-11 elapsed 45.3 min KB w= {'VIGRX': np.float32(0.42), 'VIVAX': np.float32(0.14), 'VUSTX': np.float32(0.09), 'VGTSX': np.float32(0.06), 'VGENX': np.float32(0.04), 'GC=F': np.float32(0.03), 'SI=F': np.float32(0.18), 'CASH': np.float32(0.03)}
+  [Paper legs (US)] decision 101/165 2021-06-11 elapsed 47.3 min KB w= {'VIGRX': np.float32(0.27), 'VIVAX': np.float32(0.51), 'VUSTX': np.float32(0.04), 'VGTSX': np.float32(0.06), 'VGENX': np.float32(0.05), 'GC=F': np.float32(0.02), 'SI=F': np.float32(0.02), 'CASH': np.float32(0.03)}
+  [Paper legs (US)] decision 106/165 2021-11-09 elapsed 49.5 min KB w= {'VIGRX': np.float32(0.15), 'VIVAX': np.float32(0.11), 'VUSTX': np.float32(0.05), 'VGTSX': np.float32(0.06), 'VGENX': np.float32(0.15), 'GC=F': np.float32(0.06), 'SI=F': np.float32(0.39), 'CASH': np.float32(0.04)}
+  [Paper legs (US)] decision 111/165 2022-04-11 elapsed 51.5 min KB w= {'VIGRX': np.float32(0.07), 'VIVAX': np.float32(0.04), 'VUSTX': np.float32(0.05), 'VGTSX': np.float32(0.04), 'VGENX': np.float32(0.09), 'GC=F': np.float32(0.08), 'SI=F': np.float32(0.61), 'CASH': np.float32(0.02)}
+  [Paper legs (US)] decision 116/165 2022-09-12 elapsed 53.6 min KB w= {'VIGRX': np.float32(0.03), 'VIVAX': np.float32(0.03), 'VUSTX': np.float32(0.06), 'VGTSX': np.float32(0.02), 'VGENX': np.float32(0.13), 'GC=F': np.float32(0.61), 'SI=F': np.float32(0.09), 'CASH': np.float32(0.03)}
+  [Paper legs (US)] decision 121/165 2023-02-10 elapsed 55.7 min KB w= {'VIGRX': np.float32(0.17), 'VIVAX': np.float32(0.23), 'VUSTX': np.float32(0.05), 'VGTSX': np.float32(0.12), 'VGENX': np.float32(0.18), 'GC=F': np.float32(0.04), 'SI=F': np.float32(0.18), 'CASH': np.float32(0.03)}
+  [Paper legs (US)] decision 126/165 2023-07-14 elapsed 57.7 min KB w= {'VIGRX': np.float32(0.69), 'VIVAX': np.float32(0.12), 'VUSTX': np.float32(0.02), 'VGTSX': np.float32(0.05), 'VGENX': np.float32(0.06), 'GC=F': np.float32(0.02), 'SI=F': np.float32(0.03), 'CASH': np.float32(0.01)}
+  [Paper legs (US)] decision 131/165 2023-12-12 elapsed 60.2 min KB w= {'VIGRX': np.float32(0.8), 'VIVAX': np.float32(0.05), 'VUSTX': np.float32(0.02), 'VGTSX': np.float32(0.03), 'VGENX': np.float32(0.04), 'GC=F': np.float32(0.03), 'SI=F': np.float32(0.02), 'CASH': np.float32(0.01)}
+  [Paper legs (US)] decision 136/165 2024-05-14 elapsed 62.9 min KB w= {'VIGRX': np.float32(0.3), 'VIVAX': np.float32(0.13), 'VUSTX': np.float32(0.04), 'VGTSX': np.float32(0.1), 'VGENX': np.float32(0.23), 'GC=F': np.float32(0.04), 'SI=F': np.float32(0.13), 'CASH': np.float32(0.02)}
+  [Paper legs (US)] decision 141/165 2024-10-14 elapsed 65.5 min KB w= {'VIGRX': np.float32(0.69), 'VIVAX': np.float32(0.09), 'VUSTX': np.float32(0.02), 'VGTSX': np.float32(0.05), 'VGENX': np.float32(0.08), 'GC=F': np.float32(0.02), 'SI=F': np.float32(0.03), 'CASH': np.float32(0.01)}
+  [Paper legs (US)] decision 146/165 2025-03-18 elapsed 68.1 min KB w= {'VIGRX': np.float32(0.6), 'VIVAX': np.float32(0.11), 'VUSTX': np.float32(0.03), 'VGTSX': np.float32(0.06), 'VGENX': np.float32(0.09), 'GC=F': np.float32(0.03), 'SI=F': np.float32(0.06), 'CASH': np.float32(0.02)}
+  [Paper legs (US)] decision 151/165 2025-08-18 elapsed 70.4 min KB w= {'VIGRX': np.float32(0.39), 'VIVAX': np.float32(0.07), 'VUSTX': np.float32(0.07), 'VGTSX': np.float32(0.07), 'VGENX': np.float32(0.09), 'GC=F': np.float32(0.17), 'SI=F': np.float32(0.11), 'CASH': np.float32(0.04)}
+  [Paper legs (US)] decision 156/165 2026-01-16 elapsed 72.7 min KB w= {'VIGRX': np.float32(0.02), 'VIVAX': np.float32(0.01), 'VUSTX': np.float32(0.01), 'VGTSX': np.float32(0.01), 'VGENX': np.float32(0.02), 'GC=F': np.float32(0.02), 'SI=F': np.float32(0.91), 'CASH': np.float32(0.01)}
+  [Paper legs (US)] decision 161/165 2026-06-18 elapsed 75.1 min KB w= {'VIGRX': np.float32(0.18), 'VIVAX': np.float32(0.14), 'VUSTX': np.float32(0.05), 'VGTSX': np.float32(0.09), 'VGENX': np.float32(0.21), 'GC=F': np.float32(0.07), 'SI=F': np.float32(0.23), 'CASH': np.float32(0.03)}
+                method      CAGR      Vol    Sharpe     MaxDD  log_growth_20d_x100  turnover_ann
+            KellyBoost  0.044228 0.204144  0.230094 -0.401248             0.343472      3.216582
+Two-stage LGBM + Kelly -0.033136 0.255574 -0.069453 -0.631945            -0.267443      8.417297
+  Multiclass surrogate  0.039296 0.172413  0.207531 -0.372626             0.305900      2.793866
+   Unconditional Kelly  0.018762 0.190454  0.100070 -0.522716             0.147522      0.732803
+          Equal weight  0.077568 0.107286  0.583122 -0.238703             0.592907      0.214283
+[Regional ETFs] panel (5255, 171), 2005-11-17..2026-10-19
+  dev grid 1/4 test 0/136  elapsed 0.0 min
+  dev grid 1/4 test 25/136  elapsed 1.0 min
+  dev grid 1/4 test 50/136  elapsed 1.9 min
+  dev grid 1/4 test 75/136  elapsed 2.9 min
+  dev grid 1/4 test 100/136  elapsed 3.9 min
+  dev grid 1/4 test 125/136  elapsed 4.8 min
+  dev score {'eta': 0.05, 'max_depth': 2, 'rounds': 100, 'lam': 0.05, 'mcw': 20} -0.846
+  dev grid 2/4 test 0/136  elapsed 5.2 min
+  dev grid 2/4 test 25/136  elapsed 7.1 min
+  dev grid 2/4 test 50/136  elapsed 8.8 min
+  dev grid 2/4 test 75/136  elapsed 10.5 min
+  dev grid 2/4 test 100/136  elapsed 12.0 min
+  dev grid 2/4 test 125/136  elapsed 13.5 min
+  dev score {'eta': 0.05, 'max_depth': 3, 'rounds': 100, 'lam': 0.05, 'mcw': 20} -0.548
+  dev grid 3/4 test 0/136  elapsed 14.2 min
+  dev grid 3/4 test 25/136  elapsed 15.8 min
+  dev grid 3/4 test 50/136  elapsed 17.3 min
+  dev grid 3/4 test 75/136  elapsed 18.8 min
+  dev grid 3/4 test 100/136  elapsed 20.3 min
+  dev grid 3/4 test 125/136  elapsed 21.8 min
+  dev score {'eta': 0.05, 'max_depth': 3, 'rounds': 100, 'lam': 1.0, 'mcw': 20} -0.549
+  dev grid 4/4 test 0/136  elapsed 22.4 min
+  dev grid 4/4 test 25/136  elapsed 23.1 min
+  dev grid 4/4 test 50/136  elapsed 23.7 min
+  dev grid 4/4 test 75/136  elapsed 24.4 min
+  dev grid 4/4 test 100/136  elapsed 25.1 min
+  dev grid 4/4 test 125/136  elapsed 25.7 min
+  dev score {'eta': 0.1, 'max_depth': 2, 'rounds': 60, 'lam': 1.0, 'mcw': 20} -0.762
+[Regional ETFs] selected {'eta': 0.05, 'max_depth': 3, 'rounds': 100, 'lam': 0.05, 'mcw': 20}
+  [Regional ETFs] decision 1/165 2013-01-30 elapsed 0.3 min KB w= {'SPY': np.float32(0.07), 'EZU': np.float32(0.05), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.43), 'TLT': np.float32(0.23), 'GLD': np.float32(0.18), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 6/165 2013-07-01 elapsed 1.7 min KB w= {'SPY': np.float32(0.27), 'EZU': np.float32(0.08), 'EWJ': np.float32(0.04), 'FXI': np.float32(0.06), 'TLT': np.float32(0.32), 'GLD': np.float32(0.22), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 11/165 2013-11-27 elapsed 3.1 min KB w= {'SPY': np.float32(0.76), 'EZU': np.float32(0.07), 'EWJ': np.float32(0.04), 'FXI': np.float32(0.03), 'TLT': np.float32(0.06), 'GLD': np.float32(0.04), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 16/165 2014-05-01 elapsed 4.6 min KB w= {'SPY': np.float32(0.08), 'EZU': np.float32(0.38), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.46), 'TLT': np.float32(0.02), 'GLD': np.float32(0.05), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 21/165 2014-09-30 elapsed 6.1 min KB w= {'SPY': np.float32(0.09), 'EZU': np.float32(0.21), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.54), 'TLT': np.float32(0.08), 'GLD': np.float32(0.04), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 26/165 2015-03-03 elapsed 7.6 min KB w= {'SPY': np.float32(0.06), 'EZU': np.float32(0.22), 'EWJ': np.float32(0.02), 'FXI': np.float32(0.41), 'TLT': np.float32(0.21), 'GLD': np.float32(0.08), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 31/165 2015-07-31 elapsed 9.1 min KB w= {'SPY': np.float32(0.61), 'EZU': np.float32(0.12), 'EWJ': np.float32(0.02), 'FXI': np.float32(0.18), 'TLT': np.float32(0.04), 'GLD': np.float32(0.02), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 36/165 2015-12-30 elapsed 10.6 min KB w= {'SPY': np.float32(0.05), 'EZU': np.float32(0.03), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.8), 'TLT': np.float32(0.04), 'GLD': np.float32(0.06), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 41/165 2016-06-01 elapsed 12.1 min KB w= {'SPY': np.float32(0.19), 'EZU': np.float32(0.26), 'EWJ': np.float32(0.05), 'FXI': np.float32(0.23), 'TLT': np.float32(0.22), 'GLD': np.float32(0.04), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 46/165 2016-10-28 elapsed 13.7 min KB w= {'SPY': np.float32(0.13), 'EZU': np.float32(0.19), 'EWJ': np.float32(0.21), 'FXI': np.float32(0.29), 'TLT': np.float32(0.14), 'GLD': np.float32(0.03), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 51/165 2017-03-31 elapsed 15.3 min KB w= {'SPY': np.float32(0.1), 'EZU': np.float32(0.65), 'EWJ': np.float32(0.06), 'FXI': np.float32(0.05), 'TLT': np.float32(0.07), 'GLD': np.float32(0.05), 'CASH': np.float32(0.02)}
+  [Regional ETFs] decision 56/165 2017-08-30 elapsed 16.8 min KB w= {'SPY': np.float32(0.01), 'EZU': np.float32(0.02), 'EWJ': np.float32(0.0), 'FXI': np.float32(0.92), 'TLT': np.float32(0.02), 'GLD': np.float32(0.03), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 61/165 2018-01-31 elapsed 18.3 min KB w= {'SPY': np.float32(0.05), 'EZU': np.float32(0.09), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.63), 'TLT': np.float32(0.1), 'GLD': np.float32(0.1), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 66/165 2018-07-02 elapsed 19.9 min KB w= {'SPY': np.float32(0.01), 'EZU': np.float32(0.02), 'EWJ': np.float32(0.02), 'FXI': np.float32(0.37), 'TLT': np.float32(0.51), 'GLD': np.float32(0.06), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 71/165 2018-11-29 elapsed 21.4 min KB w= {'SPY': np.float32(0.02), 'EZU': np.float32(0.04), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.15), 'TLT': np.float32(0.59), 'GLD': np.float32(0.17), 'CASH': np.float32(0.02)}
+  [Regional ETFs] decision 76/165 2019-05-03 elapsed 23.0 min KB w= {'SPY': np.float32(0.23), 'EZU': np.float32(0.06), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.52), 'TLT': np.float32(0.11), 'GLD': np.float32(0.04), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 81/165 2019-10-02 elapsed 24.6 min KB w= {'SPY': np.float32(0.04), 'EZU': np.float32(0.48), 'EWJ': np.float32(0.04), 'FXI': np.float32(0.36), 'TLT': np.float32(0.04), 'GLD': np.float32(0.04), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 86/165 2020-03-04 elapsed 26.2 min KB w= {'SPY': np.float32(0.14), 'EZU': np.float32(0.21), 'EWJ': np.float32(0.05), 'FXI': np.float32(0.51), 'TLT': np.float32(0.07), 'GLD': np.float32(0.02), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 91/165 2020-08-11 elapsed 27.8 min KB w= {'SPY': np.float32(0.07), 'EZU': np.float32(0.06), 'EWJ': np.float32(0.02), 'FXI': np.float32(0.08), 'TLT': np.float32(0.73), 'GLD': np.float32(0.04), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 96/165 2021-01-11 elapsed 29.5 min KB w= {'SPY': np.float32(0.31), 'EZU': np.float32(0.37), 'EWJ': np.float32(0.07), 'FXI': np.float32(0.12), 'TLT': np.float32(0.08), 'GLD': np.float32(0.04), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 101/165 2021-06-11 elapsed 31.2 min KB w= {'SPY': np.float32(0.13), 'EZU': np.float32(0.79), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.05), 'TLT': np.float32(0.01), 'GLD': np.float32(0.01), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 106/165 2021-11-09 elapsed 32.9 min KB w= {'SPY': np.float32(0.66), 'EZU': np.float32(0.16), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.07), 'TLT': np.float32(0.06), 'GLD': np.float32(0.02), 'CASH': np.float32(0.0)}
+  [Regional ETFs] decision 111/165 2022-04-11 elapsed 34.6 min KB w= {'SPY': np.float32(0.1), 'EZU': np.float32(0.04), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.43), 'TLT': np.float32(0.08), 'GLD': np.float32(0.33), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 116/165 2022-09-12 elapsed 36.3 min KB w= {'SPY': np.float32(0.08), 'EZU': np.float32(0.02), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.04), 'TLT': np.float32(0.19), 'GLD': np.float32(0.64), 'CASH': np.float32(0.01)}
+  [Regional ETFs] decision 121/165 2023-02-10 elapsed 38.0 min KB w= {'SPY': np.float32(0.3), 'EZU': np.float32(0.15), 'EWJ': np.float32(0.02), 'FXI': np.float32(0.18), 'TLT': np.float32(0.14), 'GLD': np.float32(0.19), 'CASH': np.float32(0.02)}
+  [Regional ETFs] decision 126/165 2023-07-14 elapsed 39.8 min KB w= {'SPY': np.float32(0.58), 'EZU': np.float32(0.1), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.1), 'TLT': np.float32(0.09), 'GLD': np.float32(0.09), 'CASH': np.float32(0.02)}
+  [Regional ETFs] decision 131/165 2023-12-12 elapsed 41.7 min KB w= {'SPY': np.float32(0.12), 'EZU': np.float32(0.29), 'EWJ': np.float32(0.03), 'FXI': np.float32(0.24), 'TLT': np.float32(0.26), 'GLD': np.float32(0.04), 'CASH': np.float32(0.02)}
+  [Regional ETFs] decision 136/165 2024-05-14 elapsed 43.4 min KB w= {'SPY': np.float32(0.04), 'EZU': np.float32(0.03), 'EWJ': np.float32(0.01), 'FXI': np.float32(0.8), 'TLT': np.float32(0.03), 'GLD': np.float32(0.08), 'CASH': np.float32(0.01)}
+Traceback (most recent call last):
+  File "C:\Users\Acer\Pictures\research_papers\paper1\strategies\papers2026\p4_kellyboost.py", line 288, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Acer\Pictures\research_papers\paper1\strategies\papers2026\p4_kellyboost.py", line 280, in main
+    rows, curves, _ = deploy(REGION_LEGS, "Regional ETFs")
+                      ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Acer\Pictures\research_papers\paper1\strategies\papers2026\p4_kellyboost.py", line 223, in deploy
+    Wd["Unconditional Kelly"][dates[i]] = uncond_kelly(Ytr)
+                                          ~~~~~~~~~~~~^^^^^
+  File "C:\Users\Acer\Pictures\research_papers\paper1\strategies\papers2026\p4_kellyboost.py", line 145, in uncond_kelly
+    prob.solve(solver=cp.CLARABEL)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Acer\Pictures\research_papers\paper1\.venv\Lib\site-packages\cvxpy\problems\problem.py", line 687, in solve
+    return solve_func(self, *args, **kwargs)
+  File "C:\Users\Acer\Pictures\research_papers\paper1\.venv\Lib\site-packages\cvxpy\problems\problem.py", line 1148, in _solve
+    self.unpack_results(solution, solving_chain, inverse_data)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Acer\Pictures\research_papers\paper1\.venv\Lib\site-packages\cvxpy\problems\problem.py", line 1453, in unpack_results
+    raise error.SolverError(
+    ...<2 lines>...
+            "information.")
+cvxpy.error.SolverError: Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.
+p4 exit 1

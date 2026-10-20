@@ -1,0 +1,2 @@
+check,corr,te_ann,sr_engine,sr_vectorised,cagr_engine,cagr_vectorised,n_days
+p1 Markowitz: ml4t Engine vs vectorised simulator,0.9979,0.0059,1.1364,1.1408,0.1034,0.1037,5030

@@ -1,0 +1,15 @@
+family,n_trials,n_obs,best_variant,best_sharpe_ann,dsr_prob,dsr_impl,best_active_variant,best_active_IR_ann,dsr_active_prob,benchmark
+1_JumpModel:US:index,11,9267,JM:US:index:HMM-2state,0.43250,0.99994,ml4t.diagnostic,JM:US:index:HMM-2state,-0.16797,0.00292,BuyHold
+1_JumpModel:US:SPY,11,8482,JM:US:SPY:JM(CV-lambda),0.55984,1.00000,ml4t.diagnostic,JM:US:SPY:SMA200,-0.21251,0.00836,SPY BuyHold
+1_JumpModel:Europe:index,14,7534,JM:Europe:index:SMA200,0.46912,0.99992,ml4t.diagnostic,JM:Europe:index:SMA200,-0.15950,0.01007,BuyHold
+1_JumpModel:Europe:EWG,14,7471,JM:Europe:EWG:SMA200,0.31509,0.98200,ml4t.diagnostic,JM:Europe:EWG:SMA200,-0.08970,0.03039,EWG BuyHold
+1_JumpModel:Europe:EZU,14,6589,JM:Europe:EZU:SMA200,0.31660,0.87122,ml4t.diagnostic,JM:Europe:EZU:SMA200,-0.05045,0.01740,EZU BuyHold
+1_JumpModel:Japan:index,11,9026,JM:Japan:index:JM(lam50),0.29495,0.97002,ml4t.diagnostic,JM:Japan:index:JM(lam50),-0.02813,0.13303,BuyHold
+1_JumpModel:Japan:EWJ,11,7692,JM:Japan:EWJ:JM(CV-lambda),0.20030,0.85449,ml4t.diagnostic,JM:Japan:EWJ:JM(CV-lambda),-0.03670,0.14621,EWJ BuyHold
+1_JumpModel:China:index,14,3668,JM:China:index:JM(lam30),0.36835,0.92858,ml4t.diagnostic,JM:China:index:HMM-2state,0.06582,0.32680,BuyHold
+1_JumpModel:China:ASHR,14,3252,JM:China:ASHR:HMM-2state,0.34064,0.98089,ml4t.diagnostic,JM:China:ASHR:HMM-2state,0.03526,0.30152,ASHR BuyHold
+1_JumpModel:China:FXI,14,3802,JM:China:FXI:HMM-2state,0.15422,0.08145,ml4t.diagnostic,JM:China:FXI:HMM-2state,0.00087,0.00295,FXI BuyHold
+2_Trend,8,5921,Trend:EWMA:LO:weekly,0.56259,0.99513,ml4t.diagnostic,Trend:EWMA:LO:weekly,-0.09921,0.00981,60/40
+3_XAssetMomentum,6,6050,Mom:QP13:top4+short30%(corr-filter),0.76894,1.00000,ml4t.diagnostic,Mom:QP13:top4+short30%(corr-filter),0.04982,0.39828,SPY
+4_TOM,29,3255,TOM:ASHR:[0:+3],0.77345,0.94878,ml4t.diagnostic,,,,
+5_SectorMomentum,6,6738,Sector:11S:top5+short25%(gated),0.56533,1.00000,ml4t.diagnostic,Sector:11S:top5+short25%(gated),0.04158,0.42438,EW9

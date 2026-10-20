@@ -1,0 +1,16 @@
+region,method,cost_bps,CAGR,Vol,Sharpe,MaxDD,log_growth_20d_x100,turnover_ann,hp
+Regional ETFs,KellyBoost,0,0.0210,0.1617,0.0988,-0.3556,0.1648,4.0187,"{'eta': 0.05, 'max_depth': 3, 'rounds': 100, 'lam': 0.05, 'mcw': 20}"
+Regional ETFs,KellyBoost,5,0.0189,0.1617,0.0864,-0.3570,0.1488,4.0187,"{'eta': 0.05, 'max_depth': 3, 'rounds': 100, 'lam': 0.05, 'mcw': 20}"
+Regional ETFs,KellyBoost,10,0.0169,0.1617,0.0739,-0.3585,0.1329,4.0187,"{'eta': 0.05, 'max_depth': 3, 'rounds': 100, 'lam': 0.05, 'mcw': 20}"
+Regional ETFs,Two-stage LGBM + Kelly,0,0.0328,0.1968,0.1718,-0.5079,0.2563,8.0438,
+Regional ETFs,Two-stage LGBM + Kelly,5,0.0287,0.1968,0.1513,-0.5129,0.2243,8.0438,
+Regional ETFs,Two-stage LGBM + Kelly,10,0.0245,0.1969,0.1308,-0.5178,0.1923,8.0438,
+Regional ETFs,Multiclass surrogate,0,0.0646,0.1367,0.3953,-0.3227,0.4967,3.0054,
+Regional ETFs,Multiclass surrogate,5,0.0630,0.1367,0.3842,-0.3242,0.4848,3.0054,
+Regional ETFs,Multiclass surrogate,10,0.0614,0.1367,0.3732,-0.3257,0.4729,3.0054,
+Regional ETFs,Unconditional Kelly,0,0.0427,0.1540,0.2325,-0.3686,0.3319,0.7091,
+Regional ETFs,Unconditional Kelly,5,0.0423,0.1540,0.2302,-0.3692,0.3291,0.7091,
+Regional ETFs,Unconditional Kelly,10,0.0420,0.1540,0.2279,-0.3698,0.3262,0.7091,
+Regional ETFs,Equal weight,0,0.0644,0.1029,0.4846,-0.2448,0.4956,0.2001,
+Regional ETFs,Equal weight,5,0.0643,0.1029,0.4836,-0.2449,0.4948,0.2001,
+Regional ETFs,Equal weight,10,0.0642,0.1029,0.4826,-0.2450,0.4940,0.2001,

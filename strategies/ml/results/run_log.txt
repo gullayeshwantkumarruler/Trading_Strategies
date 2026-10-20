@@ -1,0 +1,95 @@
+[22:26:43] === US ===
+[22:26:50]   model frame (173005, 39), 50 assets, features=24
+[22:27:44]   analyze_signal lgbm_5 (3s)
+[22:27:44]   analyze_signal ridge_5 (0s)
+[22:27:44]   analyze_signal lgbm_21 (0s)
+[22:27:44]   analyze_signal rev_5 (0s)
+[22:28:05]   backtest lgbm_5/LS done
+[22:28:22]   backtest lgbm_5/LO done
+[22:28:47]   backtest ridge_5/LS done
+[22:28:59]   backtest ridge_5/LO done
+[22:29:15]   backtest lgbm_21/LS done
+[22:29:27]   backtest lgbm_21/LO done
+[22:29:49]   backtest rev_5/LS done
+[22:30:06]   backtest rev_5/LO done
+[22:30:39]   backtest ew/EW done
+[22:30:40]   US done in 237s
+[22:30:40] === EU ===
+[22:30:44]   model frame (140754, 39), 40 assets, features=24
+[22:31:31]   analyze_signal lgbm_5 (0s)
+[22:31:31]   analyze_signal ridge_5 (0s)
+[22:31:31]   analyze_signal lgbm_21 (0s)
+[22:31:31]   analyze_signal rev_5 (0s)
+[22:31:46]   backtest lgbm_5/LS done
+[22:31:56]   backtest lgbm_5/LO done
+[22:32:13]   backtest ridge_5/LS done
+[22:32:33]   backtest ridge_5/LO done
+[22:32:53]   backtest lgbm_21/LS done
+[22:33:05]   backtest lgbm_21/LO done
+[22:33:23]   backtest rev_5/LS done
+[22:33:33]   backtest rev_5/LO done
+[22:33:56]   backtest ew/EW done
+[22:33:57]   EU done in 197s
+[22:33:57] === JP ===
+[22:34:00]   model frame (134714, 39), 40 assets, features=24
+[22:34:21]   analyze_signal lgbm_5 (0s)
+[22:34:21]   analyze_signal ridge_5 (0s)
+[22:34:21]   analyze_signal lgbm_21 (0s)
+[22:34:21]   analyze_signal rev_5 (0s)
+[22:34:31]   backtest lgbm_5/LS done
+[22:34:37]   backtest lgbm_5/LO done
+[22:34:47]   backtest ridge_5/LS done
+[22:34:53]   backtest ridge_5/LO done
+[22:35:03]   backtest lgbm_21/LS done
+[22:35:11]   backtest lgbm_21/LO done
+[22:35:27]   backtest rev_5/LS done
+[22:35:37]   backtest rev_5/LO done
+[22:35:54]   backtest ew/EW done
+[22:35:54]   JP done in 117s
+[22:35:54] === CN ===
+[22:35:56]   model frame (130113, 39), 40 assets, features=24
+[22:36:16]   analyze_signal lgbm_5 (0s)
+[22:36:16]   analyze_signal ridge_5 (0s)
+[22:36:16]   analyze_signal lgbm_21 (0s)
+[22:36:16]   analyze_signal rev_5 (0s)
+[22:36:16]   CN limit flags: 328 stock-days at +/- limit
+[22:36:26]   backtest lgbm_5/LO done
+[22:36:36]   backtest ridge_5/LO done
+[22:36:47]   backtest lgbm_21/LO done
+[22:36:55]   backtest rev_5/LO done
+[22:37:20]   backtest ew/EW done
+[22:37:21]   CN done in 87s
+region  signal kind  cost_bp_per_side  ann_ret  ann_vol  sharpe  max_dd  vec_sharpe  ann_turnover
+    US  lgbm_5   LS            10.000    0.027    0.183   0.236  -0.403       0.244        44.384
+    US  lgbm_5   LO            10.000    0.212    0.237   0.930  -0.321       0.934        21.504
+    US ridge_5   LS            10.000    0.003    0.208   0.119  -0.475       0.124        46.973
+    US ridge_5   LO            10.000    0.187    0.248   0.815  -0.351       0.801        23.410
+    US lgbm_21   LS            10.000    0.012    0.181   0.158  -0.425       0.178        30.089
+    US lgbm_21   LO            10.000    0.195    0.230   0.889  -0.321       0.950        14.866
+    US   rev_5   LS            10.000   -0.067    0.194  -0.260  -0.628      -0.256        80.447
+    US   rev_5   LO            10.000    0.129    0.222   0.657  -0.391       0.723        40.081
+    US      ew   EW            10.000    0.175    0.170   1.033  -0.305       1.092         0.051
+    EU  lgbm_5   LS            10.000   -0.009    0.126  -0.013  -0.350       0.062        53.098
+    EU  lgbm_5   LO            10.000    0.125    0.194   0.702  -0.410       0.648        26.128
+    EU ridge_5   LS            10.000   -0.038    0.149  -0.186  -0.558      -0.087        55.244
+    EU ridge_5   LO            10.000    0.115    0.189   0.668  -0.398       0.654        27.085
+    EU lgbm_21   LS            10.000   -0.012    0.118  -0.047  -0.216       0.015        46.700
+    EU lgbm_21   LO            10.000    0.113    0.201   0.633  -0.398       0.650        22.756
+    EU   rev_5   LS            10.000   -0.135    0.171  -0.764  -0.769      -0.634        81.448
+    EU   rev_5   LO            10.000    0.035    0.228   0.266  -0.450       0.302        40.635
+    EU      ew   EW            10.000    0.123    0.182   0.728  -0.401       0.702         0.368
+    JP  lgbm_5   LS            10.000    0.013    0.152   0.159  -0.395       0.166        46.113
+    JP  lgbm_5   LO            10.000    0.210    0.222   0.971  -0.278       0.915        22.399
+    JP ridge_5   LS            10.000   -0.028    0.161  -0.095  -0.525      -0.006        46.483
+    JP ridge_5   LO            10.000    0.210    0.215   0.992  -0.286       0.984        23.280
+    JP lgbm_21   LS            10.000   -0.022    0.153  -0.069  -0.562      -0.004        32.117
+    JP lgbm_21   LO            10.000    0.176    0.222   0.841  -0.256       0.851        15.924
+    JP   rev_5   LS            10.000   -0.070    0.178  -0.320  -0.581      -0.278        80.005
+    JP   rev_5   LO            10.000    0.136    0.226   0.678  -0.325       0.655        40.200
+    JP      ew   EW            10.000    0.192    0.182   1.055  -0.266       1.048         0.051
+    CN  lgbm_5   LO            15.000    0.132    0.205   0.706  -0.293       0.724        26.594
+    CN ridge_5   LO            15.000    0.148    0.200   0.792  -0.289       0.759        30.081
+    CN lgbm_21   LO            15.000    0.104    0.206   0.582  -0.353       0.614        19.872
+    CN   rev_5   LO            15.000    0.067    0.225   0.400  -0.416       0.470        39.246
+    CN      ew   EW            15.000    0.136    0.181   0.797  -0.294       0.773         0.127
+[22:37:27] done

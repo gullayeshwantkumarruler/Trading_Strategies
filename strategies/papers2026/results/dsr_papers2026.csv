@@ -1,0 +1,2 @@
+family,n_trials,n_obs,best_variant,best_sharpe_ann,dsr_prob,dsr_impl,best_active_variant,best_active_IR_ann,dsr_active_prob,benchmark
+"p8 residual stat-arb (net 5bp, all rules)",80,4189,FFN_cross-model_stabilised,0.0939,0.0000,ml4t.diagnostic,FFN_baseline,0.3473,0.0038,FFN_baseline
