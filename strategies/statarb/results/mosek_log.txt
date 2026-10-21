@@ -1,0 +1,33 @@
+[   0.9 min] CLARABEL: 0.074 s/solve
+[   2.2 min] MOSEK: 0.113 s/solve
+[   2.2 min]   MIP max 100 names: day 0
+[   8.4 min]   MIP max 100 names: day 500
+[  15.3 min]   MIP max 100 names: day 1000
+[  22.7 min]   MIP max 100 names: day 1500
+[  30.0 min]   MIP max 100 names: day 2000
+[  36.6 min]   MIP max 100 names: day 2500
+[  44.0 min]   MIP max 100 names: day 3000
+[  51.4 min]   MIP max 100 names: day 3500
+[  58.1 min]   MIP max 100 names: day 4000
+[  60.6 min]   MIP min trade 0.1%: day 0
+Traceback (most recent call last):
+  File "C:\Users\Acer\Pictures\research_papers\paper1\strategies\statarb\mosek_bench.py", line 148, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Acer\Pictures\research_papers\paper1\strategies\statarb\mosek_bench.py", line 127, in main
+    w = opt.solve(**at(t), wprev=wprev)
+  File "C:\Users\Acer\Pictures\research_papers\paper1\strategies\statarb\mosek_bench.py", line 81, in solve
+    self.prob.solve(solver=cp.MOSEK, mosek_params={"MSK_DPAR_MIO_TOL_REL_GAP": 1e-3,
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                  "MSK_DPAR_MIO_MAX_TIME": self.max_time})
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Acer\Pictures\research_papers\paper1\.venv\Lib\site-packages\cvxpy\problems\problem.py", line 687, in solve
+    return solve_func(self, *args, **kwargs)
+  File "C:\Users\Acer\Pictures\research_papers\paper1\.venv\Lib\site-packages\cvxpy\problems\problem.py", line 1148, in _solve
+    self.unpack_results(solution, solving_chain, inverse_data)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Acer\Pictures\research_papers\paper1\.venv\Lib\site-packages\cvxpy\problems\problem.py", line 1453, in unpack_results
+    raise error.SolverError(
+    ...<2 lines>...
+            "information.")
+cvxpy.error.SolverError: Solver 'MOSEK' failed. Try another solver, or solve with verbose=True for more information.

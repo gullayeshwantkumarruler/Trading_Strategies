@@ -1,0 +1,2 @@
+family,strategy,start,end,SR_gross,SR_net,ann_net,vol,maxDD,turnover_daily,avg_gross_lev,SR_net_2010_21,SR_net_2022_26,SR_gross_2022_26,params
+s3_dlsa,Attention Factors lite K=10 cost-in-loss,2010-01-04,2026-08-28,0.8993,0.8561,0.1457,0.1702,-0.3652,0.0582,1.0000,1.0263,0.3797,0.4780,"{""K"": 10, ""chars"": 9}"

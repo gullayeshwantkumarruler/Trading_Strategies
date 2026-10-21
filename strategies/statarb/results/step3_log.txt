@@ -1,0 +1,42 @@
+[   0.1 min] PCA-5 residuals with loadings
+[  14.6 min] training DLSA on FF5 (cost-in-loss)
+[  32.3 min]   FF5: block 2010-01-04..2010-12-29 trained on 999 days
+[  37.1 min]   FF5: block 2010-12-30..2011-12-23 trained on 999 days
+[  41.9 min]   FF5: block 2011-12-27..2012-12-24 trained on 999 days
+[  46.7 min]   FF5: block 2012-12-26..2013-12-20 trained on 999 days
+[  51.5 min]   FF5: block 2013-12-23..2014-12-18 trained on 999 days
+[  56.0 min]   FF5: block 2014-12-19..2015-12-16 trained on 999 days
+[  60.3 min]   FF5: block 2015-12-17..2016-12-13 trained on 999 days
+[  64.5 min]   FF5: block 2016-12-14..2017-12-11 trained on 999 days
+[  68.9 min]   FF5: block 2017-12-12..2018-12-10 trained on 999 days
+[  73.2 min]   FF5: block 2018-12-11..2019-12-06 trained on 999 days
+[  77.6 min]   FF5: block 2019-12-09..2020-12-03 trained on 999 days
+[  81.8 min]   FF5: block 2020-12-04..2021-12-01 trained on 999 days
+[  86.1 min]   FF5: block 2021-12-02..2022-11-29 trained on 999 days
+[  90.4 min]   FF5: block 2022-11-30..2023-11-28 trained on 999 days
+[  94.6 min]   FF5: block 2023-11-29..2024-11-25 trained on 999 days
+[  98.9 min]   FF5: block 2024-11-26..2025-11-25 trained on 999 days
+[ 103.2 min]   FF5: block 2025-11-26..2026-08-28 trained on 999 days
+[ 103.2 min] FF5 cost-in-loss: SR net 0.21 gross 0.94 TO 0.196 2010-21 0.50 2022-26 -0.29
+[ 103.2 min] training DLSA on PCA5 (cost-in-loss)
+[ 115.7 min]   PCA5: block 2010-01-04..2010-12-29 trained on 999 days
+[ 119.7 min]   PCA5: block 2010-12-30..2011-12-23 trained on 999 days
+[ 123.6 min]   PCA5: block 2011-12-27..2012-12-24 trained on 999 days
+[ 127.6 min]   PCA5: block 2012-12-26..2013-12-20 trained on 999 days
+[ 131.5 min]   PCA5: block 2013-12-23..2014-12-18 trained on 999 days
+[ 135.4 min]   PCA5: block 2014-12-19..2015-12-16 trained on 999 days
+[ 139.4 min]   PCA5: block 2015-12-17..2016-12-13 trained on 999 days
+[ 143.3 min]   PCA5: block 2016-12-14..2017-12-11 trained on 999 days
+[ 147.2 min]   PCA5: block 2017-12-12..2018-12-10 trained on 999 days
+[ 151.1 min]   PCA5: block 2018-12-11..2019-12-06 trained on 999 days
+[ 155.1 min]   PCA5: block 2019-12-09..2020-12-03 trained on 999 days
+[ 159.0 min]   PCA5: block 2020-12-04..2021-12-01 trained on 999 days
+[ 162.9 min]   PCA5: block 2021-12-02..2022-11-29 trained on 999 days
+[ 166.8 min]   PCA5: block 2022-11-30..2023-11-28 trained on 999 days
+[ 170.7 min]   PCA5: block 2023-11-29..2024-11-25 trained on 999 days
+[ 174.6 min]   PCA5: block 2024-11-26..2025-11-25 trained on 999 days
+[ 178.5 min]   PCA5: block 2025-11-26..2026-08-28 trained on 999 days
+[ 178.5 min] PCA5 cost-in-loss: SR net -0.42 gross 0.92 TO 0.219 2010-21 -0.36 2022-26 -0.54
+                              strategy  SR_gross  SR_net  turnover_daily  SR_net_2010_21  SR_net_2022_26  maxDD
+ DLSA CNN-Transformer FF5 cost-in-loss     0.936   0.211           0.196           0.501          -0.293 -0.127
+DLSA CNN-Transformer PCA5 cost-in-loss     0.921  -0.418           0.219          -0.360          -0.544 -0.262

@@ -1,0 +1,9 @@
+set,n_trials,window,strategy,SR_ann,dsr_prob
+all full-history trials,83,2013-03..2026-08,s4_blend__optimiser_slow=LightGBM_fast_w=0.0_g=0.5,1.0030,0.0000
+excluding naive daily-rebalance variants,74,2013-03..2026-08,s4_blend__optimiser_slow=LightGBM_fast_w=0.0_g=0.5,1.0030,0.0000
+single strategy vs candidate trials,74,2013-03..2026-08,s4_blend__optimiser_slow=LightGBM_fast_w=0.0_g=0.5,1.0030,0.0000
+single strategy vs candidate trials,74,2013-03..2026-08,s3_dlsa__Attention_Factors_lite_K=10_cost-in-loss,0.8518,0.0000
+"noise-only null (Var=1/T), K = candidate trials",74,2013-03..2026-08,s4_blend__optimiser_slow=LightGBM_fast_w=0.0_g=0.5,1.0030,0.9976
+"noise-only null (Var=1/T), K = candidate trials",74,2013-03..2026-08,s3_dlsa__Attention_Factors_lite_K=10_cost-in-loss,0.8518,0.9573
+"family selection (14 variants, effective-rank K_eff)",14,2013-03..2026-08,s4_blend__optimiser_slow=LightGBM_fast_w=0.0_g=0.5,1.0030,0.9818
+"family selection (3 variants, effective-rank K_eff)",3,2013-03..2026-08,s3_dlsa__Attention_Factors_lite_K=10_cost-in-loss,0.8518,0.9870

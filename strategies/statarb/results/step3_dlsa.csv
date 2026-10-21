@@ -1,0 +1,3 @@
+family,strategy,start,end,SR_gross,SR_net,ann_net,vol,maxDD,turnover_daily,SR_net_2010_21,SR_net_2022_26,SR_gross_2022_26,params
+s3_dlsa,DLSA CNN-Transformer FF5 cost-in-loss,2010-01-04,2026-08-28,0.9364,0.2107,0.0098,0.0465,-0.1268,0.1962,0.5013,-0.2934,0.1731,"{""resid"": ""FF5"", ""loss"": ""cost-in-loss"", ""epochs"": 15}"
+s3_dlsa,DLSA CNN-Transformer PCA5 cost-in-loss,2010-01-04,2026-08-28,0.9205,-0.4179,-0.0125,0.0300,-0.2623,0.2189,-0.3602,-0.5445,0.3639,"{""resid"": ""PCA5"", ""loss"": ""cost-in-loss"", ""epochs"": 15}"

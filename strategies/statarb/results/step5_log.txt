@@ -1,0 +1,69 @@
+[   0.0 min] SEC Form 345 insider purchases
+[   0.4 min]   form345 year 2006 loaded
+[   0.9 min]   form345 year 2007 loaded
+[   1.4 min]   form345 year 2008 loaded
+[   1.8 min]   form345 year 2009 loaded
+[   2.2 min]   form345 year 2010 loaded
+[   2.5 min]   form345 year 2011 loaded
+[   2.8 min]   form345 year 2012 loaded
+[   3.2 min]   form345 year 2013 loaded
+[   3.7 min]   form345 year 2014 loaded
+[   4.2 min]   form345 year 2015 loaded
+[   4.7 min]   form345 year 2016 loaded
+[   5.1 min]   form345 year 2017 loaded
+[   5.5 min]   form345 year 2018 loaded
+[   5.9 min]   form345 year 2019 loaded
+[   6.3 min]   form345 year 2020 loaded
+[   6.7 min]   form345 year 2021 loaded
+[   7.1 min]   form345 year 2022 loaded
+[   7.4 min]   form345 year 2023 loaded
+[   7.7 min]   form345 year 2024 loaded
+[   8.0 min]   form345 year 2025 loaded
+[   8.1 min]   form345 2026q2: HTTP Error 404: Not Found
+[   8.1 min]   form345 year 2026 loaded
+[   8.4 min]   opportunistic purchase events in universe: 8782
+[   8.5 min] Lazy Prices: downloading and comparing 10-K / 10-Q text (long)
+[  13.3 min]   lazy prices: 10/337 companies
+[  17.6 min]   lazy prices: 20/337 companies
+[  21.0 min]   lazy prices: 30/337 companies
+[  25.1 min]   lazy prices: 40/337 companies
+[  27.4 min]   lazy prices: 50/337 companies
+[  31.9 min]   lazy prices: 60/337 companies
+[  35.6 min]   lazy prices: 70/337 companies
+[  38.5 min]   lazy prices: 80/337 companies
+[  42.2 min]   lazy prices: 90/337 companies
+[  45.5 min]   lazy prices: 100/337 companies
+[  49.6 min]   lazy prices: 110/337 companies
+[  54.1 min]   lazy prices: 120/337 companies
+[  59.0 min]   lazy prices: 130/337 companies
+[  61.8 min]   lazy prices: 140/337 companies
+[  66.2 min]   lazy prices: 150/337 companies
+[  70.5 min]   lazy prices: 160/337 companies
+[  73.6 min]   lazy prices: 170/337 companies
+[  78.6 min]   lazy prices: 180/337 companies
+[  82.2 min]   lazy prices: 190/337 companies
+[  87.1 min]   lazy prices: 200/337 companies
+[  91.0 min]   lazy prices: 210/337 companies
+[  95.6 min]   lazy prices: 220/337 companies
+[  99.7 min]   lazy prices: 230/337 companies
+[ 103.4 min]   lazy prices: 240/337 companies
+[ 109.2 min]   lazy prices: 250/337 companies
+[ 112.3 min]   lazy prices: 260/337 companies
+[ 117.3 min]   lazy prices: 270/337 companies
+[ 121.4 min]   lazy prices: 280/337 companies
+[ 125.0 min]   lazy prices: 290/337 companies
+[ 129.4 min]   lazy prices: 300/337 companies
+[ 134.3 min]   lazy prices: 310/337 companies
+[ 138.7 min]   lazy prices: 320/337 companies
+[ 145.0 min]   lazy prices: 330/337 companies
+                                strategy  SR_gross  SR_net  turnover_daily  SR_net_2010_21  SR_net_2022_26  maxDD
+     Insider opportunistic buys hold 21d     0.027  -0.621           0.077          -0.845          -0.070 -0.318
+      Insider opportunistic buys hold 5d     0.089  -0.649           0.271          -0.946          -0.023 -0.508
+ Lazy Prices cosine monthly quintile L/S    -0.254  -0.815           0.021          -0.540          -1.446 -0.333
+Lazy Prices jaccard monthly quintile L/S     0.423  -0.135           0.020           0.150          -0.877 -0.146
+                                strategy  FF5_alpha_ann  FF5_alpha_t
+     Insider opportunistic buys hold 21d      -0.020645    -2.742634
+      Insider opportunistic buys hold 5d      -0.039420    -2.640263
+ Lazy Prices cosine monthly quintile L/S      -0.022162    -3.202373
+Lazy Prices jaccard monthly quintile L/S      -0.003324    -0.532962
+[ 146.9 min] done

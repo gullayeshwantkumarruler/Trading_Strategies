@@ -1,0 +1,19 @@
+[  18.3 min]   AF block 2010-01-04..2010-12-29
+[  24.2 min]   AF block 2010-12-30..2011-12-23
+[  30.0 min]   AF block 2011-12-27..2012-12-24
+[  35.4 min]   AF block 2012-12-26..2013-12-20
+[  40.9 min]   AF block 2013-12-23..2014-12-18
+[  46.6 min]   AF block 2014-12-19..2015-12-16
+[  53.6 min]   AF block 2015-12-17..2016-12-13
+[  60.7 min]   AF block 2016-12-14..2017-12-11
+[  67.6 min]   AF block 2017-12-12..2018-12-10
+[  74.2 min]   AF block 2018-12-11..2019-12-06
+[  80.2 min]   AF block 2019-12-09..2020-12-03
+[  86.5 min]   AF block 2020-12-04..2021-12-01
+[  92.9 min]   AF block 2021-12-02..2022-11-29
+[  99.8 min]   AF block 2022-11-30..2023-11-28
+[ 106.3 min]   AF block 2023-11-29..2024-11-25
+[ 113.1 min]   AF block 2024-11-26..2025-11-25
+[ 118.7 min]   AF block 2025-11-26..2026-08-28
+                                strategy  SR_gross  SR_net  turnover_daily  avg_gross_lev  SR_net_2010_21  SR_net_2022_26  maxDD
+Attention Factors lite K=10 cost-in-loss     0.899   0.856           0.058          1.000           1.026           0.380 -0.365

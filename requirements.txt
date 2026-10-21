@@ -14,6 +14,7 @@ akshare==1.19.1
 lightgbm==4.7.0
 xgboost==3.4.1
 cvxpy==1.9.3
+mosek==11.2.6  # optional; needs a licence (free academic / 30-day trial)
 clarabel==0.11.1
 hmmlearn==0.3.3
 jumpmodels==0.1.1

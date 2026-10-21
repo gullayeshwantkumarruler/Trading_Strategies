@@ -1,0 +1,44 @@
+[   0.0 min] PCA-3 residuals
+[  13.0 min] PCA-5 residuals
+[  27.0 min] char-projection residuals
+residual  IC_lag1  IC_lag2  IC_lag3  IC_lag5  IC_lag10  IC_lag20
+     FF5   0.0072   0.0018   0.0020   0.0042   -0.0003   -0.0003
+    PCA3   0.0087   0.0021   0.0027   0.0040    0.0002    0.0007
+    PCA5   0.0071   0.0011   0.0015   0.0037   -0.0001    0.0003
+CharProj   0.0089   0.0017   0.0020   0.0036    0.0001    0.0003
+[  27.3 min] FF5 done
+[  27.4 min] PCA3 done
+[  27.4 min] PCA5 done
+[  27.4 min] CharProj done
+                 strategy  SR_gross  SR_net  turnover_daily  SR_net_2010_21  SR_net_2022_26  maxDD
+           FF5 rev5 daily     0.589  -1.139           0.628          -1.012          -1.456 -0.653
+      FF5 rev5 partial0.1     0.598  -0.081           0.095           0.059          -0.403 -0.101
+     FF5 NFE rule L60 H20     0.365  -0.087           0.052          -0.010          -0.253 -0.116
+          PCA3 rev5 daily     0.733  -0.980           0.629          -0.812          -1.393 -0.607
+     PCA3 rev5 partial0.1     0.615  -0.038           0.095           0.176          -0.519 -0.119
+    PCA3 NFE rule L60 H20     0.191  -0.299           0.051          -0.138          -0.628 -0.223
+          PCA5 rev5 daily     0.603  -1.244           0.628          -0.938          -2.031 -0.662
+     PCA5 rev5 partial0.1     0.598  -0.116           0.095           0.209          -0.885 -0.143
+    PCA5 NFE rule L60 H20     0.234  -0.306           0.052          -0.158          -0.620 -0.206
+      CharProj rev5 daily     0.723  -0.968           0.627          -0.825          -1.304 -0.625
+ CharProj rev5 partial0.1     0.498  -0.116           0.094           0.093          -0.617 -0.143
+CharProj NFE rule L60 H20     0.303  -0.161           0.051           0.004          -0.503 -0.156
+[  27.4 min] Robeco residual reversal (FF3, 756d betas, monthly)
+[  27.6 min] SPONGE graph clustering (PCA5 residuals)
+                        strategy  SR_gross  SR_net  turnover_daily  SR_net_2010_21  SR_net_2022_26  maxDD
+                  FF5 rev5 daily     0.589  -1.139           0.628          -1.012          -1.456 -0.653
+             FF5 rev5 partial0.1     0.598  -0.081           0.095           0.059          -0.403 -0.101
+            FF5 NFE rule L60 H20     0.365  -0.087           0.052          -0.010          -0.253 -0.116
+                 PCA3 rev5 daily     0.733  -0.980           0.629          -0.812          -1.393 -0.607
+            PCA3 rev5 partial0.1     0.615  -0.038           0.095           0.176          -0.519 -0.119
+           PCA3 NFE rule L60 H20     0.191  -0.299           0.051          -0.138          -0.628 -0.223
+                 PCA5 rev5 daily     0.603  -1.244           0.628          -0.938          -2.031 -0.662
+            PCA5 rev5 partial0.1     0.598  -0.116           0.095           0.209          -0.885 -0.143
+           PCA5 NFE rule L60 H20     0.234  -0.306           0.052          -0.158          -0.620 -0.206
+             CharProj rev5 daily     0.723  -0.968           0.627          -0.825          -1.304 -0.625
+        CharProj rev5 partial0.1     0.498  -0.116           0.094           0.093          -0.617 -0.143
+       CharProj NFE rule L60 H20     0.303  -0.161           0.051           0.004          -0.503 -0.156
+Robeco residual reversal monthly     0.195  -0.342           0.068          -0.088          -0.770 -0.290
+           SPONGE clusters daily     0.726  -1.332           0.647          -1.020          -2.167 -0.654
+      SPONGE clusters partial0.1     0.649  -0.122           0.094           0.196          -0.898 -0.136
+[  29.4 min] done
