@@ -1,0 +1,10 @@
+family,strategy,start,end,SR_gross,SR_net,ann_net,vol,maxDD,turnover_daily,avg_gross_lev,SR_net_2010_21,SR_net_2022_26,SR_gross_2022_26,params,library,combiner,n_alphas,IC_test,IC_t_test
+ar_test,agent EW monthly L/S [test],2022-01-03,2026-07-30,0.2275,-0.0621,-0.0032,0.0508,-0.0766,0.0167,1.0000,,-0.0621,0.2275,"{""lib"": ""agent"", ""comb"": ""EW""}",agent,EW,1,0.0041,0.2327
+ar_test,agent ridge monthly L/S [test],2022-01-03,2026-07-30,0.2275,-0.0621,-0.0032,0.0508,-0.0766,0.0167,1.0000,,-0.0621,0.2275,"{""lib"": ""agent"", ""comb"": ""ridge""}",agent,ridge,1,0.0041,0.2327
+ar_test,agent LightGBM monthly L/S [test],2022-01-03,2026-07-30,0.1872,-0.3154,-0.0123,0.0391,-0.1200,0.0560,1.0000,,-0.3154,0.1872,"{""lib"": ""agent"", ""comb"": ""LightGBM""}",agent,LightGBM,1,0.0077,0.5761
+ar_test,gp EW monthly L/S [test],2022-01-03,2026-07-30,0.5274,0.1656,0.0090,0.0543,-0.0718,0.0557,1.0000,,0.1656,0.5274,"{""lib"": ""gp"", ""comb"": ""EW""}",gp,EW,5,0.0198,1.2371
+ar_test,gp ridge monthly L/S [test],2022-01-03,2026-07-30,0.5080,0.1949,0.0115,0.0592,-0.0902,0.0470,1.0000,,0.1949,0.5080,"{""lib"": ""gp"", ""comb"": ""ridge""}",gp,ridge,5,0.0201,1.2233
+ar_test,gp LightGBM monthly L/S [test],2022-01-03,2026-07-30,0.8383,0.4234,0.0202,0.0477,-0.0675,0.0568,1.0000,,0.4234,0.8383,"{""lib"": ""gp"", ""comb"": ""LightGBM""}",gp,LightGBM,5,0.0257,1.7989
+ar_test,union EW monthly L/S [test],2022-01-03,2026-07-30,0.5311,0.1906,0.0104,0.0543,-0.0810,0.0465,1.0000,,0.1906,0.5311,"{""lib"": ""union"", ""comb"": ""EW""}",union,EW,5,0.0183,1.1315
+ar_test,union ridge monthly L/S [test],2022-01-03,2026-07-30,0.5393,0.2290,0.0130,0.0570,-0.0878,0.0400,1.0000,,0.2290,0.5393,"{""lib"": ""union"", ""comb"": ""ridge""}",union,ridge,5,0.0159,0.9609
+ar_test,union LightGBM monthly L/S [test],2022-01-03,2026-07-30,0.9343,0.5417,0.0266,0.0492,-0.0530,0.0527,1.0000,,0.5417,0.9343,"{""lib"": ""union"", ""comb"": ""LightGBM""}",union,LightGBM,5,0.0266,1.7237

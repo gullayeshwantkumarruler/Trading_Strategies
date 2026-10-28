@@ -1,0 +1,12 @@
+library,expr,source,IC_train,IC_valid,IC_test,t_test
+agent,"div(ts_mean(abs(ret), 21), ts_mean(dvol, 21))",agent,0.0393,0.0406,0.0041,0.2327
+gp,rank(resid),"gp(seed=0,gen=2)",0.0354,0.0231,0.0081,0.5530
+gp,"sub(accruals, mul(ts_rank(ret, 126), close))","gp(seed=0,gen=7)",0.0554,0.0411,0.0296,1.7626
+gp,"add(ret, accruals)","gp(seed=0,gen=8)",0.0364,0.0258,-0.0001,-0.0110
+gp,"sub(mul(ts_rank(ret, 126), close), mul(ts_rank(ret, 126), dvol))","gp(seed=0,gen=13)",0.0536,0.0325,0.0109,0.6229
+gp,"sub(k8, div(mul(close, dvol), decay(accruals, 252)))","gp(seed=0,gen=16)",0.0366,0.0317,0.0189,1.3877
+union,"div(ts_mean(abs(ret), 21), ts_mean(dvol, 21))",union:agent,0.0393,0.0406,0.0041,0.2327
+union,rank(resid),"union:gp(seed=0,gen=2)",0.0354,0.0231,0.0081,0.5530
+union,"sub(accruals, mul(ts_rank(ret, 126), close))","union:gp(seed=0,gen=7)",0.0554,0.0411,0.0296,1.7626
+union,"add(ret, accruals)","union:gp(seed=0,gen=8)",0.0364,0.0258,-0.0001,-0.0110
+union,"sub(k8, div(mul(close, dvol), decay(accruals, 252)))","union:gp(seed=0,gen=16)",0.0366,0.0317,0.0189,1.3877

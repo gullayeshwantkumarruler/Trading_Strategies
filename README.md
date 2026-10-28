@@ -18,6 +18,7 @@ else either fails to beat a simple baseline (equal weight, buy-and-hold) or lose
 | `strategies/ml/` | Round 1 ML cross-sectional models (LightGBM/Ridge) for US, Europe, Japan, China |
 | `strategies/papers2026/` | Round 2: replications of five 2026 papers (1 stock/bond/gold, 2 Wasserstein HMM, 3 tabular DL hybrid, 4 KellyBoost, 8 attribution-guided stat-arb) + ML4T engine cross-check |
 | `strategies/statarb/` | Round 3: equity stat arb (cost-aware construction, residual ladder, DLSA, Attention Factors), alpha library with point-in-time EDGAR fundamentals, free alt data (FINRA, Form 4, Lazy Prices), daily collector, MOSEK benchmark |
+| `strategies/alpha_research/` | Round 4: formulaic-alpha DSL, frozen referee, agent + GP alpha mining, Wikipedia/8-K alt data, sealed-test backtests |
 | `strategies/*/results/` | Metrics CSVs, logs and equity-curve PNGs from the runs |
 | `papers/README.md` | Links to every paper used (PDFs not redistributed) |
 
@@ -50,6 +51,20 @@ files daily (`strategies/statarb/collect_daily.py`, scheduled task). MOSEK (acad
 continuous problems and its mixed-integer extensions did not improve results.
 
 SEC EDGAR steps need `set SEC_USER_AGENT=Your Name your.email@example.com` (SEC policy).
+
+## Round 4 results (AI alpha-research pipeline + new alt data)
+
+Notes: `research_notes/AI alpha research pipelines/` (survey of 2025–26 LLM/agent alpha miners and results);
+code: `strategies/alpha_research/`. A formulaic-alpha DSL over 25 fields (price/volume, point-in-time fundamentals,
+insider, FINRA, Lazy Prices, plus new Wikipedia page-view attention and SEC 8-K event data), two proposers (40 frozen
+agent hypotheses, genetic programming) and one frozen referee (train 2010–17 t ≥ 3, valid 2018–21, redundancy and
+validity checks), then a one-shot sealed test 2022–26.
+
+- 6 of 190 candidates admitted; mined alphas' IC roughly halves train → valid → test; no alt-data alpha passed.
+- Best sealed-test book: union library, LightGBM, monthly L/S net Sharpe 0.54 (deflated-Sharpe probability 0.73),
+  below the round-3 slow optimiser's 0.80 on the same window.
+- A first run's referee admitted 62 degenerate GP formulas (floating-point tie noise); fixed with validity
+  safeguards and re-mined — documented in the notes.
 
 ## Setup
 

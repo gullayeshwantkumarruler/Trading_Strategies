@@ -1,0 +1,2 @@
+family,n_trials,n_obs,best_variant,best_sharpe_ann,dsr_prob,dsr_impl
+alpha research test variants,15,1147,union LightGBM,0.5416728793627502,0.7324662088846361,ml4t.diagnostic

@@ -1,0 +1,102 @@
+[   0.1 min] fields: 25
+[   0.3 min] agent: 1/40 admitted
+[1026.3 min]   gen 1/30: best fitness 3.70 ts_rank(ret, 126) | admitted 0
+[1027.2 min]   gen 2/30: best fitness 4.01 neg(ret) | admitted 0
+[1028.0 min]   gen 3/30: best fitness 4.01 neg(ret) | admitted 1
+[1028.8 min]   gen 4/30: best fitness 4.01 neg(ret) | admitted 1
+[1029.5 min]   gen 5/30: best fitness 4.01 neg(ret) | admitted 1
+[1030.1 min]   gen 6/30: best fitness 4.01 neg(ret) | admitted 1
+[1030.5 min]   gen 7/30: best fitness 4.01 neg(ret) | admitted 1
+[1030.9 min]   gen 8/30: best fitness 4.42 sub(accruals, mul(ts_rank(ret, 126), close)) | admitted 2
+[1031.6 min]   gen 9/30: best fitness 4.42 sub(accruals, mul(ts_rank(ret, 126), close)) | admitted 3
+[1032.2 min]   gen 10/30: best fitness 4.42 sub(accruals, mul(ts_rank(ret, 126), close)) | admitted 3
+[1032.6 min]   gen 11/30: best fitness 4.58 sub(sub(slog(ts_corr(dvol, k8_502, 126)), ts_delay(zscore(k8_202), 21)), div(div(zscore(re | admitted 3
+[1033.0 min]   gen 12/30: best fitness 4.58 sub(sub(slog(ts_corr(dvol, k8_502, 126)), ts_delay(zscore(k8_202), 21)), div(div(zscore(re | admitted 3
+[1033.4 min]   gen 13/30: best fitness 4.58 sub(sub(slog(ts_corr(dvol, k8_502, 126)), ts_delay(zscore(k8_202), 21)), div(div(zscore(re | admitted 3
+[1033.8 min]   gen 14/30: best fitness 4.58 sub(sub(slog(ts_corr(dvol, k8_502, 126)), ts_delay(zscore(k8_202), 21)), div(div(zscore(re | admitted 4
+[1034.3 min]   gen 15/30: best fitness 4.58 sub(sub(slog(ts_corr(dvol, k8_502, 126)), ts_delay(zscore(k8_202), 21)), div(div(zscore(re | admitted 4
+[1034.9 min]   gen 16/30: best fitness 4.59 sub(sub(ret, accruals), div(neg(ret), accruals)) | admitted 4
+[1035.4 min]   gen 17/30: best fitness 4.59 sub(sub(ret, accruals), div(neg(ret), accruals)) | admitted 5
+[1036.0 min]   gen 18/30: best fitness 4.85 sub(mul(sub(k8, div(ret, accruals)), close), div(k8_202, accruals)) | admitted 5
+[1036.5 min]   gen 19/30: best fitness 4.85 sub(mul(sub(k8, div(ret, accruals)), close), div(k8_202, accruals)) | admitted 5
+[1037.1 min]   gen 20/30: best fitness 4.92 sub(mul(sub(k8, div(ret, accruals)), close), div(k8_202, ts_rank(sub(asset_growth, cfoa),  | admitted 5
+[1037.6 min]   gen 21/30: best fitness 5.36 sub(ts_rank(accruals, 126), div(ret, accruals)) | admitted 5
+[1038.2 min]   gen 22/30: best fitness 6.36 sub(slog(ts_rank(sue, 126)), sub(accruals, div(ret, accruals))) | admitted 5
+[1038.8 min]   gen 23/30: best fitness 6.36 sub(slog(ts_rank(sue, 126)), sub(accruals, div(ret, accruals))) | admitted 5
+[1039.5 min]   gen 24/30: best fitness 6.36 sub(slog(ts_rank(sue, 126)), sub(accruals, div(ret, accruals))) | admitted 5
+[1040.1 min]   gen 25/30: best fitness 6.36 sub(slog(ts_rank(sue, 126)), sub(accruals, div(ret, accruals))) | admitted 5
+[1040.8 min]   gen 26/30: best fitness 6.36 sub(slog(ts_rank(sue, 126)), sub(accruals, div(ret, accruals))) | admitted 5
+[1041.8 min]   gen 27/30: best fitness 6.36 sub(slog(ts_rank(sue, 126)), sub(accruals, div(ret, accruals))) | admitted 5
+[1043.1 min]   gen 28/30: best fitness 6.36 sub(slog(ts_rank(sue, 126)), sub(accruals, div(ret, accruals))) | admitted 5
+[1044.0 min]   gen 29/30: best fitness 6.60 sub(slog(ts_rank(sue, 126)), sub(sign(roe), div(ret, accruals))) | admitted 5
+[1044.9 min]   gen 30/30: best fitness 6.60 sub(slog(ts_rank(sue, 126)), sub(sign(roe), div(ret, accruals))) | admitted 5
+[1044.9 min] gp: 5 admitted of 150 judged
+[1045.0 min] union: 5 admitted
+
+== agent: 1 admitted
+  t_tr +3.74 t_va +2.38  div(ts_mean(abs(ret), 21), ts_mean(dvol, 21))
+
+== gp: 5 admitted
+  t_tr -3.70 t_va +1.51  rank(resid)
+  t_tr +5.42 t_va +1.83  sub(accruals, mul(ts_rank(ret, 126), close))
+  t_tr -3.79 t_va +1.75  add(ret, accruals)
+  t_tr +5.30 t_va +1.87  sub(mul(ts_rank(ret, 126), close), mul(ts_rank(ret, 126), dvol))
+  t_tr -4.84 t_va +2.13  sub(k8, div(mul(close, dvol), decay(accruals, 252)))
+
+== union: 5 admitted
+  t_tr +3.74 t_va +2.38  div(ts_mean(abs(ret), 21), ts_mean(dvol, 21))
+  t_tr -3.70 t_va +1.51  rank(resid)
+  t_tr +5.42 t_va +1.83  sub(accruals, mul(ts_rank(ret, 126), close))
+  t_tr -3.79 t_va +1.75  add(ret, accruals)
+  t_tr -4.84 t_va +2.13  sub(k8, div(mul(close, dvol), decay(accruals, 252)))
+[1045.0 min] PHASE B — unsealing 2022-2026 (one shot)
+[1045.1 min] agent: composites done
+[1045.2 min] gp: composites done
+[1045.3 min] union: composites done
+[1050.0 min] optimiser agent/EW: g=1.0 val SR 0.84 -> test SR -0.12
+[1055.0 min] optimiser agent/LightGBM: g=0.2 val SR 1.37 -> test SR 0.34
+[1060.1 min] optimiser gp/EW: g=0.5 val SR 0.87 -> test SR 0.07
+[1064.2 min] optimiser gp/LightGBM: g=0.2 val SR 3.63 -> test SR 0.12
+[1068.1 min] optimiser union/EW: g=1.0 val SR 0.92 -> test SR -0.10
+[1072.0 min] optimiser union/LightGBM: g=0.2 val SR 3.37 -> test SR 0.12
+library                                                             expr                  source  IC_train  IC_valid  IC_test  t_test
+  agent                    div(ts_mean(abs(ret), 21), ts_mean(dvol, 21))                   agent     0.039     0.041    0.004   0.233
+     gp                                                      rank(resid)        gp(seed=0,gen=2)     0.035     0.023    0.008   0.553
+     gp                     sub(accruals, mul(ts_rank(ret, 126), close))        gp(seed=0,gen=7)     0.055     0.041    0.030   1.763
+     gp                                               add(ret, accruals)        gp(seed=0,gen=8)     0.036     0.026   -0.000  -0.011
+     gp sub(mul(ts_rank(ret, 126), close), mul(ts_rank(ret, 126), dvol))       gp(seed=0,gen=13)     0.054     0.032    0.011   0.623
+     gp             sub(k8, div(mul(close, dvol), decay(accruals, 252)))       gp(seed=0,gen=16)     0.037     0.032    0.019   1.388
+  union                    div(ts_mean(abs(ret), 21), ts_mean(dvol, 21))             union:agent     0.039     0.041    0.004   0.233
+  union                                                      rank(resid)  union:gp(seed=0,gen=2)     0.035     0.023    0.008   0.553
+  union                     sub(accruals, mul(ts_rank(ret, 126), close))  union:gp(seed=0,gen=7)     0.055     0.041    0.030   1.763
+  union                                               add(ret, accruals)  union:gp(seed=0,gen=8)     0.036     0.026   -0.000  -0.011
+  union             sub(k8, div(mul(close, dvol), decay(accruals, 252))) union:gp(seed=0,gen=16)     0.037     0.032    0.019   1.388
+                         strategy  SR_gross  SR_net  turnover_daily  avg_gross_lev  SR_net_2010_21  SR_net_2022_26  maxDD
+      agent EW monthly L/S [test]     0.228  -0.062           0.017          1.000             NaN          -0.062 -0.077
+   agent ridge monthly L/S [test]     0.228  -0.062           0.017          1.000             NaN          -0.062 -0.077
+agent LightGBM monthly L/S [test]     0.187  -0.315           0.056          1.000             NaN          -0.315 -0.120
+         gp EW monthly L/S [test]     0.527   0.166           0.056          1.000             NaN           0.166 -0.072
+      gp ridge monthly L/S [test]     0.508   0.195           0.047          1.000             NaN           0.195 -0.090
+   gp LightGBM monthly L/S [test]     0.838   0.423           0.057          1.000             NaN           0.423 -0.068
+      union EW monthly L/S [test]     0.531   0.191           0.047          1.000             NaN           0.191 -0.081
+   union ridge monthly L/S [test]     0.539   0.229           0.040          1.000             NaN           0.229 -0.088
+union LightGBM monthly L/S [test]     0.934   0.542           0.053          1.000             NaN           0.542 -0.053
+                             strategy  SR_gross  SR_net  turnover_daily  avg_gross_lev  SR_net_2010_21  SR_net_2022_26  maxDD
+      agent EW optimiser g=1.0 [test]     0.288  -0.117           0.002          1.000             NaN          -0.117 -0.114
+agent LightGBM optimiser g=0.2 [test]     0.729   0.337           0.029          1.000             NaN           0.337 -0.047
+         gp EW optimiser g=0.5 [test]     0.481   0.067           0.006          1.000             NaN           0.067 -0.067
+   gp LightGBM optimiser g=0.2 [test]     0.512   0.118           0.034          1.000             NaN           0.118 -0.094
+      union EW optimiser g=1.0 [test]     0.350  -0.103           0.002          1.000             NaN          -0.103 -0.099
+union LightGBM optimiser g=0.2 [test]     0.494   0.116           0.030          1.000             NaN           0.116 -0.100
+                                                   strategy  SR_net_test  ann_net
+round 3: s4_blend__optimiser_slow=LightGBM_fast_w=0.0_g=0.5     0.797907 0.029517
+          round 3: s4_alpha__composite_LightGBM_monthly_L-S     0.039552 0.001065
+ round 3: s3_dlsa__Attention_Factors_lite_K=10_cost-in-loss     0.379679 0.060710
+family             alpha research test variants
+n_trials                                     15
+n_obs                                      1147
+best_variant                     union LightGBM
+best_sharpe_ann                        0.541673
+dsr_prob                               0.732466
+dsr_impl                        ml4t.diagnostic
+[1072.1 min] done

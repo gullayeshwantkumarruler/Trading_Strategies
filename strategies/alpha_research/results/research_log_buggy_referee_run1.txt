@@ -1,0 +1,338 @@
+[   0.1 min] fields: 25
+[   0.3 min] agent: 1/40 admitted
+[   1.5 min]   gen 1/30: best fitness 3.72 ts_min(k8_101, 10) | admitted 2
+[   2.3 min]   gen 2/30: best fitness 3.72 ts_min(k8_101, 10) | admitted 4
+[   3.1 min]   gen 3/30: best fitness 3.72 ts_min(k8_101, 10) | admitted 5
+[   4.0 min]   gen 4/30: best fitness 4.02 mul(neg(decay(ts_mean(cfoa, 126), 21)), resid) | admitted 9
+[   4.8 min]   gen 5/30: best fitness 4.02 mul(neg(decay(ts_mean(cfoa, 126), 21)), resid) | admitted 13
+[   5.5 min]   gen 6/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 17
+[   6.1 min]   gen 7/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 21
+[   6.6 min]   gen 8/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 25
+[   7.0 min]   gen 9/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 30
+[   7.6 min]   gen 10/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 34
+[   8.2 min]   gen 11/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 39
+[   8.7 min]   gen 12/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 42
+[   9.3 min]   gen 13/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 45
+[   9.8 min]   gen 14/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 45
+[  10.5 min]   gen 15/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 47
+[  11.1 min]   gen 16/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 49
+[  11.7 min]   gen 17/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 51
+[  12.4 min]   gen 18/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 53
+[  13.0 min]   gen 19/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 54
+[  13.6 min]   gen 20/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 55
+[  14.1 min]   gen 21/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 56
+[  14.8 min]   gen 22/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 59
+[  15.4 min]   gen 23/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 60
+[  16.2 min]   gen 24/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 60
+[  16.9 min]   gen 25/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 60
+[  17.6 min]   gen 26/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 60
+[  18.1 min]   gen 27/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 61
+[  18.7 min]   gen 28/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 62
+[  19.2 min]   gen 29/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 64
+[  19.7 min]   gen 30/30: best fitness 4.33 sub(ts_min(close, 10), close) | admitted 64
+[  19.7 min] gp: 64 admitted of 150 judged
+[  20.0 min] union: 64 admitted
+
+== agent: 1 admitted
+  t_tr +3.74 t_va +2.38  div(ts_mean(abs(ret), 21), ts_mean(dvol, 21))
+
+== gp: 64 admitted
+  t_tr +3.87 t_va +1.60  ts_min(k8_101, 10)
+  t_tr +3.87 t_va +1.60  ts_max(ts_delta(ts_min(insider_opp, 252), 5), 10)
+  t_tr +3.87 t_va +1.60  ts_delta(ts_min(k8_101, 10), 10)
+  t_tr -3.37 t_va +1.60  mul(asset_growth, resid)
+  t_tr +3.87 t_va +1.60  rank(ts_delta(ts_min(insider_opp, 252), 5))
+  t_tr +4.90 t_va +1.77  mul(neg(decay(ts_mean(cfoa, 126), 21)), resid)
+  t_tr -4.07 t_va +1.61  sub(resid, mul(ts_max(resid, 63), decay(lp_jac, 126)))
+  t_tr +3.87 t_va +1.60  mul(ts_min(k8_101, 10), resid)
+  t_tr +3.87 t_va +1.60  neg(ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  sub(k8_101, k8_101)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(k8_101, 10), 10)
+  t_tr +3.87 t_va +1.60  abs(ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  ts_min(ts_delta(ts_min(k8_101, 10), 10), 10)
+  t_tr +3.87 t_va +1.60  mul(ts_min(k8_101, 10), sub(close, k8_101))
+  t_tr +3.87 t_va +1.60  zscore(ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  rank(ts_min(k8_101, 252))
+  t_tr +3.87 t_va +1.60  rank(ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  ts_min(k8_502, 10)
+  t_tr +3.87 t_va +1.60  ts_min(sub(k8_101, k8_101), 10)
+  t_tr +3.87 t_va +1.60  sub(ts_min(k8_101, 10), ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  mul(ts_min(k8_101, 10), sub(k8_101, k8_101))
+  t_tr +3.87 t_va +1.60  ts_min(k8_101, 252)
+  t_tr +3.87 t_va +1.60  ts_min(k8_202, 10)
+  t_tr +3.87 t_va +1.60  mul(ts_min(k8_101, 10), ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  slog(ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  mul(ts_min(k8_101, 10), k8_101)
+  t_tr +3.87 t_va +1.60  zscore(ts_min(k8_202, 10))
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(k8_502, 10), 10)
+  t_tr +3.87 t_va +1.60  decay(sign(close), 21)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(ts_min(k8_101, 10), 10), 10)
+  t_tr +3.87 t_va +1.60  ts_min(sign(close), 10)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(k8_101, 10), 252)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(k8_101, 252), 10)
+  t_tr +3.87 t_va +1.60  ts_min(neg(ts_min(k8_101, 10)), 10)
+  t_tr +3.87 t_va +1.60  rank(ts_min(ts_min(k8_101, 10), 10))
+  t_tr +3.87 t_va +1.60  mul(ts_min(k8_101, 10), ts_min(ts_cov(insider_opp, beta, 126), 10))
+  t_tr +3.87 t_va +1.60  ts_min(mul(slog(k8_202), ts_min(k8_101, 10)), 10)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(ts_min(k8_101, 10), 252), 10)
+  t_tr +3.87 t_va +1.60  ts_min(decay(ts_std(roe, 5), 5), 10)
+  t_tr -4.40 t_va +1.84  ts_min(mul(close, ts_sum(dvol, 63)), 10)
+  t_tr +3.87 t_va +1.60  mul(ts_min(ts_min(k8_101, 10), 10), ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  ts_min(abs(ts_min(k8_101, 10)), 10)
+  t_tr +3.87 t_va +1.60  sub(close, close)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(k8, 10), 10)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(k8_202, 10), 10)
+  t_tr +3.87 t_va +1.60  sub(ts_min(close, 10), ts_min(close, 10))
+  t_tr +3.87 t_va +1.60  ts_mean(ts_min(k8_101, 10), 5)
+  t_tr +3.87 t_va +1.60  ts_delay(sub(close, close), 10)
+  t_tr +3.87 t_va +1.60  ts_min(sub(ts_min(close, 10), ts_min(close, 10)), 10)
+  t_tr +3.87 t_va +1.60  sub(ts_min(ts_min(k8_101, 10), 10), ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(sub(close, close), 10), 10)
+  t_tr +3.87 t_va +1.60  ts_min(sub(close, close), 10)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(ts_min(ts_min(k8_101, 10), 10), 10), 10)
+  t_tr +3.87 t_va +1.60  ts_mean(ts_min(sub(ts_min(close, 10), ts_min(close, 10)), 10), 5)
+  t_tr +3.87 t_va +1.60  sub(sub(ts_min(close, 10), close), sub(ts_min(close, 10), close))
+  t_tr +3.87 t_va +1.60  sub(close, sub(ts_min(close, 10), sub(ts_min(close, 10), close)))
+  t_tr +3.87 t_va +1.60  abs(sub(insider_opp, insider_opp))
+  t_tr +3.87 t_va +1.60  ts_delta(ts_min(k8_101, 63), 63)
+  t_tr +3.80 t_va +1.80  sub(ts_min(ts_min(ts_min(close, 10), 10), 10), close)
+  t_tr +3.87 t_va +1.60  sub(abs(close), close)
+  t_tr +3.87 t_va +1.60  rank(ts_min(k8_202, 252))
+  t_tr +3.87 t_va +1.60  ts_min(k8_101, 21)
+  t_tr +3.87 t_va +1.60  sign(close)
+  t_tr +3.87 t_va +1.73  sub(div(roe, bm), close)
+
+== union: 64 admitted
+  t_tr +3.74 t_va +2.38  div(ts_mean(abs(ret), 21), ts_mean(dvol, 21))
+  t_tr +3.87 t_va +1.60  ts_min(k8_101, 10)
+  t_tr +3.87 t_va +1.60  ts_max(ts_delta(ts_min(insider_opp, 252), 5), 10)
+  t_tr +3.87 t_va +1.60  ts_delta(ts_min(k8_101, 10), 10)
+  t_tr -3.37 t_va +1.60  mul(asset_growth, resid)
+  t_tr +3.87 t_va +1.60  rank(ts_delta(ts_min(insider_opp, 252), 5))
+  t_tr +4.90 t_va +1.77  mul(neg(decay(ts_mean(cfoa, 126), 21)), resid)
+  t_tr -4.07 t_va +1.61  sub(resid, mul(ts_max(resid, 63), decay(lp_jac, 126)))
+  t_tr +3.87 t_va +1.60  mul(ts_min(k8_101, 10), resid)
+  t_tr +3.87 t_va +1.60  neg(ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  sub(k8_101, k8_101)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(k8_101, 10), 10)
+  t_tr +3.87 t_va +1.60  abs(ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  ts_min(ts_delta(ts_min(k8_101, 10), 10), 10)
+  t_tr +3.87 t_va +1.60  mul(ts_min(k8_101, 10), sub(close, k8_101))
+  t_tr +3.87 t_va +1.60  zscore(ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  rank(ts_min(k8_101, 252))
+  t_tr +3.87 t_va +1.60  rank(ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  ts_min(k8_502, 10)
+  t_tr +3.87 t_va +1.60  ts_min(sub(k8_101, k8_101), 10)
+  t_tr +3.87 t_va +1.60  sub(ts_min(k8_101, 10), ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  mul(ts_min(k8_101, 10), sub(k8_101, k8_101))
+  t_tr +3.87 t_va +1.60  ts_min(k8_101, 252)
+  t_tr +3.87 t_va +1.60  ts_min(k8_202, 10)
+  t_tr +3.87 t_va +1.60  mul(ts_min(k8_101, 10), ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  slog(ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  mul(ts_min(k8_101, 10), k8_101)
+  t_tr +3.87 t_va +1.60  zscore(ts_min(k8_202, 10))
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(k8_502, 10), 10)
+  t_tr +3.87 t_va +1.60  decay(sign(close), 21)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(ts_min(k8_101, 10), 10), 10)
+  t_tr +3.87 t_va +1.60  ts_min(sign(close), 10)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(k8_101, 10), 252)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(k8_101, 252), 10)
+  t_tr +3.87 t_va +1.60  ts_min(neg(ts_min(k8_101, 10)), 10)
+  t_tr +3.87 t_va +1.60  rank(ts_min(ts_min(k8_101, 10), 10))
+  t_tr +3.87 t_va +1.60  mul(ts_min(k8_101, 10), ts_min(ts_cov(insider_opp, beta, 126), 10))
+  t_tr +3.87 t_va +1.60  ts_min(mul(slog(k8_202), ts_min(k8_101, 10)), 10)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(ts_min(k8_101, 10), 252), 10)
+  t_tr +3.87 t_va +1.60  ts_min(decay(ts_std(roe, 5), 5), 10)
+  t_tr +3.87 t_va +1.60  mul(ts_min(ts_min(k8_101, 10), 10), ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  ts_min(abs(ts_min(k8_101, 10)), 10)
+  t_tr +3.87 t_va +1.60  sub(close, close)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(k8, 10), 10)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(k8_202, 10), 10)
+  t_tr +3.87 t_va +1.60  sub(ts_min(close, 10), ts_min(close, 10))
+  t_tr +3.87 t_va +1.60  ts_mean(ts_min(k8_101, 10), 5)
+  t_tr +3.87 t_va +1.60  ts_delay(sub(close, close), 10)
+  t_tr +3.87 t_va +1.60  ts_min(sub(ts_min(close, 10), ts_min(close, 10)), 10)
+  t_tr +3.87 t_va +1.60  sub(ts_min(ts_min(k8_101, 10), 10), ts_min(k8_101, 10))
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(sub(close, close), 10), 10)
+  t_tr +3.87 t_va +1.60  ts_min(sub(close, close), 10)
+  t_tr +3.87 t_va +1.60  ts_min(ts_min(ts_min(ts_min(k8_101, 10), 10), 10), 10)
+  t_tr +3.87 t_va +1.60  ts_mean(ts_min(sub(ts_min(close, 10), ts_min(close, 10)), 10), 5)
+  t_tr +3.87 t_va +1.60  sub(sub(ts_min(close, 10), close), sub(ts_min(close, 10), close))
+  t_tr +3.87 t_va +1.60  sub(close, sub(ts_min(close, 10), sub(ts_min(close, 10), close)))
+  t_tr +3.87 t_va +1.60  abs(sub(insider_opp, insider_opp))
+  t_tr +3.87 t_va +1.60  ts_delta(ts_min(k8_101, 63), 63)
+  t_tr +3.80 t_va +1.80  sub(ts_min(ts_min(ts_min(close, 10), 10), 10), close)
+  t_tr +3.87 t_va +1.60  sub(abs(close), close)
+  t_tr +3.87 t_va +1.60  rank(ts_min(k8_202, 252))
+  t_tr +3.87 t_va +1.60  ts_min(k8_101, 21)
+  t_tr +3.87 t_va +1.60  sign(close)
+  t_tr +3.87 t_va +1.73  sub(div(roe, bm), close)
+[  20.0 min] PHASE B — unsealing 2022-2026 (one shot)
+[  20.1 min] agent: composites done
+[  20.3 min] gp: composites done
+[  20.4 min] union: composites done
+[  24.7 min] optimiser agent/EW: g=1.0 val SR 0.84 -> test SR -0.12
+[  29.0 min] optimiser agent/LightGBM: g=0.2 val SR 1.37 -> test SR 0.34
+[  33.0 min] optimiser gp/EW: g=0.5 val SR 1.22 -> test SR 0.42
+[  37.5 min] optimiser gp/LightGBM: g=0.2 val SR 3.94 -> test SR 0.19
+[  42.3 min] optimiser union/EW: g=1.0 val SR 1.25 -> test SR 0.22
+[  47.0 min] optimiser union/LightGBM: g=0.2 val SR 3.83 -> test SR 0.50
+library                                                                expr                  source  IC_train  IC_valid  IC_test  t_test
+  agent                       div(ts_mean(abs(ret), 21), ts_mean(dvol, 21))                   agent     0.039     0.041    0.004   0.233
+     gp                                                  ts_min(k8_101, 10)        gp(seed=0,gen=0)     0.000     0.000      NaN     NaN
+     gp                   ts_max(ts_delta(ts_min(insider_opp, 252), 5), 10)        gp(seed=0,gen=0)     0.000     0.000      NaN     NaN
+     gp                                    ts_delta(ts_min(k8_101, 10), 10)        gp(seed=0,gen=1)     0.000     0.000      NaN     NaN
+     gp                                            mul(asset_growth, resid)        gp(seed=0,gen=1)     0.028     0.018    0.009   0.817
+     gp                         rank(ts_delta(ts_min(insider_opp, 252), 5))        gp(seed=0,gen=2)     0.000     0.000      NaN     NaN
+     gp                      mul(neg(decay(ts_mean(cfoa, 126), 21)), resid)        gp(seed=0,gen=3)     0.036     0.023    0.011   0.843
+     gp              sub(resid, mul(ts_max(resid, 63), decay(lp_jac, 126)))        gp(seed=0,gen=3)     0.051     0.027    0.023   1.435
+     gp                                      mul(ts_min(k8_101, 10), resid)        gp(seed=0,gen=3)     0.000     0.000      NaN     NaN
+     gp                                             neg(ts_min(k8_101, 10))        gp(seed=0,gen=3)     0.000     0.000      NaN     NaN
+     gp                                                 sub(k8_101, k8_101)        gp(seed=0,gen=4)     0.000     0.000      NaN     NaN
+     gp                                      ts_min(ts_min(k8_101, 10), 10)        gp(seed=0,gen=4)     0.000     0.000      NaN     NaN
+     gp                                             abs(ts_min(k8_101, 10))        gp(seed=0,gen=4)     0.000     0.000      NaN     NaN
+     gp                        ts_min(ts_delta(ts_min(k8_101, 10), 10), 10)        gp(seed=0,gen=4)     0.000     0.000      NaN     NaN
+     gp                         mul(ts_min(k8_101, 10), sub(close, k8_101))        gp(seed=0,gen=5)     0.000     0.000      NaN     NaN
+     gp                                          zscore(ts_min(k8_101, 10))        gp(seed=0,gen=5)     0.000     0.000      NaN     NaN
+     gp                                           rank(ts_min(k8_101, 252))        gp(seed=0,gen=5)     0.000     0.000      NaN     NaN
+     gp                                            rank(ts_min(k8_101, 10))        gp(seed=0,gen=5)     0.000     0.000      NaN     NaN
+     gp                                                  ts_min(k8_502, 10)        gp(seed=0,gen=6)     0.000     0.000      NaN     NaN
+     gp                                     ts_min(sub(k8_101, k8_101), 10)        gp(seed=0,gen=6)     0.000     0.000      NaN     NaN
+     gp                         sub(ts_min(k8_101, 10), ts_min(k8_101, 10))        gp(seed=0,gen=6)     0.000     0.000      NaN     NaN
+     gp                        mul(ts_min(k8_101, 10), sub(k8_101, k8_101))        gp(seed=0,gen=6)     0.000     0.000      NaN     NaN
+     gp                                                 ts_min(k8_101, 252)        gp(seed=0,gen=7)     0.000     0.000      NaN     NaN
+     gp                                                  ts_min(k8_202, 10)        gp(seed=0,gen=7)     0.000     0.000      NaN     NaN
+     gp                         mul(ts_min(k8_101, 10), ts_min(k8_101, 10))        gp(seed=0,gen=7)     0.000     0.000      NaN     NaN
+     gp                                            slog(ts_min(k8_101, 10))        gp(seed=0,gen=7)     0.000     0.000      NaN     NaN
+     gp                                     mul(ts_min(k8_101, 10), k8_101)        gp(seed=0,gen=8)     0.000     0.000      NaN     NaN
+     gp                                          zscore(ts_min(k8_202, 10))        gp(seed=0,gen=8)     0.000     0.000      NaN     NaN
+     gp                                      ts_min(ts_min(k8_502, 10), 10)        gp(seed=0,gen=8)     0.000     0.000      NaN     NaN
+     gp                                              decay(sign(close), 21)        gp(seed=0,gen=8)     0.000     0.000      NaN     NaN
+     gp                          ts_min(ts_min(ts_min(k8_101, 10), 10), 10)        gp(seed=0,gen=8)     0.000     0.000      NaN     NaN
+     gp                                             ts_min(sign(close), 10)        gp(seed=0,gen=9)     0.000     0.000      NaN     NaN
+     gp                                     ts_min(ts_min(k8_101, 10), 252)        gp(seed=0,gen=9)     0.000     0.000      NaN     NaN
+     gp                                     ts_min(ts_min(k8_101, 252), 10)        gp(seed=0,gen=9)     0.000     0.000      NaN     NaN
+     gp                                 ts_min(neg(ts_min(k8_101, 10)), 10)        gp(seed=0,gen=9)     0.000     0.000      NaN     NaN
+     gp                                rank(ts_min(ts_min(k8_101, 10), 10))       gp(seed=0,gen=10)     0.000     0.000      NaN     NaN
+     gp mul(ts_min(k8_101, 10), ts_min(ts_cov(insider_opp, beta, 126), 10))       gp(seed=0,gen=10)     0.000     0.000      NaN     NaN
+     gp                   ts_min(mul(slog(k8_202), ts_min(k8_101, 10)), 10)       gp(seed=0,gen=10)     0.000     0.000      NaN     NaN
+     gp                         ts_min(ts_min(ts_min(k8_101, 10), 252), 10)       gp(seed=0,gen=10)     0.000     0.000      NaN     NaN
+     gp                                ts_min(decay(ts_std(roe, 5), 5), 10)       gp(seed=0,gen=10)     0.000     0.000      NaN     NaN
+     gp                            ts_min(mul(close, ts_sum(dvol, 63)), 10)       gp(seed=0,gen=11)     0.039     0.037    0.004   0.245
+     gp             mul(ts_min(ts_min(k8_101, 10), 10), ts_min(k8_101, 10))       gp(seed=0,gen=11)     0.000     0.000      NaN     NaN
+     gp                                 ts_min(abs(ts_min(k8_101, 10)), 10)       gp(seed=0,gen=11)     0.000     0.000      NaN     NaN
+     gp                                                   sub(close, close)       gp(seed=0,gen=12)     0.000     0.000      NaN     NaN
+     gp                                          ts_min(ts_min(k8, 10), 10)       gp(seed=0,gen=12)     0.000     0.000      NaN     NaN
+     gp                                      ts_min(ts_min(k8_202, 10), 10)       gp(seed=0,gen=12)     0.000     0.000      NaN     NaN
+     gp                           sub(ts_min(close, 10), ts_min(close, 10))       gp(seed=0,gen=14)     0.000     0.000      NaN     NaN
+     gp                                      ts_mean(ts_min(k8_101, 10), 5)       gp(seed=0,gen=14)     0.000     0.000      NaN     NaN
+     gp                                     ts_delay(sub(close, close), 10)       gp(seed=0,gen=15)     0.000     0.000      NaN     NaN
+     gp               ts_min(sub(ts_min(close, 10), ts_min(close, 10)), 10)       gp(seed=0,gen=15)     0.000     0.000      NaN     NaN
+     gp             sub(ts_min(ts_min(k8_101, 10), 10), ts_min(k8_101, 10))       gp(seed=0,gen=16)     0.000     0.000      NaN     NaN
+     gp                           ts_min(ts_min(sub(close, close), 10), 10)       gp(seed=0,gen=16)     0.000     0.000      NaN     NaN
+     gp                                       ts_min(sub(close, close), 10)       gp(seed=0,gen=17)     0.000     0.000      NaN     NaN
+     gp              ts_min(ts_min(ts_min(ts_min(k8_101, 10), 10), 10), 10)       gp(seed=0,gen=17)     0.000     0.000      NaN     NaN
+     gp   ts_mean(ts_min(sub(ts_min(close, 10), ts_min(close, 10)), 10), 5)       gp(seed=0,gen=18)     0.000     0.000      NaN     NaN
+     gp   sub(sub(ts_min(close, 10), close), sub(ts_min(close, 10), close))       gp(seed=0,gen=19)     0.000     0.000      NaN     NaN
+     gp   sub(close, sub(ts_min(close, 10), sub(ts_min(close, 10), close)))       gp(seed=0,gen=20)     0.000     0.000      NaN     NaN
+     gp                                  abs(sub(insider_opp, insider_opp))       gp(seed=0,gen=21)     0.000     0.000      NaN     NaN
+     gp                                    ts_delta(ts_min(k8_101, 63), 63)       gp(seed=0,gen=21)     0.000     0.000      NaN     NaN
+     gp               sub(ts_min(ts_min(ts_min(close, 10), 10), 10), close)       gp(seed=0,gen=21)     0.043     0.039   -0.007  -0.422
+     gp                                              sub(abs(close), close)       gp(seed=0,gen=22)     0.000     0.000      NaN     NaN
+     gp                                           rank(ts_min(k8_202, 252))       gp(seed=0,gen=26)     0.000     0.000      NaN     NaN
+     gp                                                  ts_min(k8_101, 21)       gp(seed=0,gen=27)     0.000     0.000      NaN     NaN
+     gp                                                         sign(close)       gp(seed=0,gen=28)     0.000     0.000      NaN     NaN
+     gp                                            sub(div(roe, bm), close)       gp(seed=0,gen=28)     0.035     0.037    0.022   1.314
+  union                       div(ts_mean(abs(ret), 21), ts_mean(dvol, 21))             union:agent     0.039     0.041    0.004   0.233
+  union                                                  ts_min(k8_101, 10)  union:gp(seed=0,gen=0)     0.000     0.000      NaN     NaN
+  union                   ts_max(ts_delta(ts_min(insider_opp, 252), 5), 10)  union:gp(seed=0,gen=0)     0.000     0.000      NaN     NaN
+  union                                    ts_delta(ts_min(k8_101, 10), 10)  union:gp(seed=0,gen=1)     0.000     0.000      NaN     NaN
+  union                                            mul(asset_growth, resid)  union:gp(seed=0,gen=1)     0.028     0.018    0.009   0.817
+  union                         rank(ts_delta(ts_min(insider_opp, 252), 5))  union:gp(seed=0,gen=2)     0.000     0.000      NaN     NaN
+  union                      mul(neg(decay(ts_mean(cfoa, 126), 21)), resid)  union:gp(seed=0,gen=3)     0.036     0.023    0.011   0.843
+  union              sub(resid, mul(ts_max(resid, 63), decay(lp_jac, 126)))  union:gp(seed=0,gen=3)     0.051     0.027    0.023   1.435
+  union                                      mul(ts_min(k8_101, 10), resid)  union:gp(seed=0,gen=3)     0.000     0.000      NaN     NaN
+  union                                             neg(ts_min(k8_101, 10))  union:gp(seed=0,gen=3)     0.000     0.000      NaN     NaN
+  union                                                 sub(k8_101, k8_101)  union:gp(seed=0,gen=4)     0.000     0.000      NaN     NaN
+  union                                      ts_min(ts_min(k8_101, 10), 10)  union:gp(seed=0,gen=4)     0.000     0.000      NaN     NaN
+  union                                             abs(ts_min(k8_101, 10))  union:gp(seed=0,gen=4)     0.000     0.000      NaN     NaN
+  union                        ts_min(ts_delta(ts_min(k8_101, 10), 10), 10)  union:gp(seed=0,gen=4)     0.000     0.000      NaN     NaN
+  union                         mul(ts_min(k8_101, 10), sub(close, k8_101))  union:gp(seed=0,gen=5)     0.000     0.000      NaN     NaN
+  union                                          zscore(ts_min(k8_101, 10))  union:gp(seed=0,gen=5)     0.000     0.000      NaN     NaN
+  union                                           rank(ts_min(k8_101, 252))  union:gp(seed=0,gen=5)     0.000     0.000      NaN     NaN
+  union                                            rank(ts_min(k8_101, 10))  union:gp(seed=0,gen=5)     0.000     0.000      NaN     NaN
+  union                                                  ts_min(k8_502, 10)  union:gp(seed=0,gen=6)     0.000     0.000      NaN     NaN
+  union                                     ts_min(sub(k8_101, k8_101), 10)  union:gp(seed=0,gen=6)     0.000     0.000      NaN     NaN
+  union                         sub(ts_min(k8_101, 10), ts_min(k8_101, 10))  union:gp(seed=0,gen=6)     0.000     0.000      NaN     NaN
+  union                        mul(ts_min(k8_101, 10), sub(k8_101, k8_101))  union:gp(seed=0,gen=6)     0.000     0.000      NaN     NaN
+  union                                                 ts_min(k8_101, 252)  union:gp(seed=0,gen=7)     0.000     0.000      NaN     NaN
+  union                                                  ts_min(k8_202, 10)  union:gp(seed=0,gen=7)     0.000     0.000      NaN     NaN
+  union                         mul(ts_min(k8_101, 10), ts_min(k8_101, 10))  union:gp(seed=0,gen=7)     0.000     0.000      NaN     NaN
+  union                                            slog(ts_min(k8_101, 10))  union:gp(seed=0,gen=7)     0.000     0.000      NaN     NaN
+  union                                     mul(ts_min(k8_101, 10), k8_101)  union:gp(seed=0,gen=8)     0.000     0.000      NaN     NaN
+  union                                          zscore(ts_min(k8_202, 10))  union:gp(seed=0,gen=8)     0.000     0.000      NaN     NaN
+  union                                      ts_min(ts_min(k8_502, 10), 10)  union:gp(seed=0,gen=8)     0.000     0.000      NaN     NaN
+  union                                              decay(sign(close), 21)  union:gp(seed=0,gen=8)     0.000     0.000      NaN     NaN
+  union                          ts_min(ts_min(ts_min(k8_101, 10), 10), 10)  union:gp(seed=0,gen=8)     0.000     0.000      NaN     NaN
+  union                                             ts_min(sign(close), 10)  union:gp(seed=0,gen=9)     0.000     0.000      NaN     NaN
+  union                                     ts_min(ts_min(k8_101, 10), 252)  union:gp(seed=0,gen=9)     0.000     0.000      NaN     NaN
+  union                                     ts_min(ts_min(k8_101, 252), 10)  union:gp(seed=0,gen=9)     0.000     0.000      NaN     NaN
+  union                                 ts_min(neg(ts_min(k8_101, 10)), 10)  union:gp(seed=0,gen=9)     0.000     0.000      NaN     NaN
+  union                                rank(ts_min(ts_min(k8_101, 10), 10)) union:gp(seed=0,gen=10)     0.000     0.000      NaN     NaN
+  union mul(ts_min(k8_101, 10), ts_min(ts_cov(insider_opp, beta, 126), 10)) union:gp(seed=0,gen=10)     0.000     0.000      NaN     NaN
+  union                   ts_min(mul(slog(k8_202), ts_min(k8_101, 10)), 10) union:gp(seed=0,gen=10)     0.000     0.000      NaN     NaN
+  union                         ts_min(ts_min(ts_min(k8_101, 10), 252), 10) union:gp(seed=0,gen=10)     0.000     0.000      NaN     NaN
+  union                                ts_min(decay(ts_std(roe, 5), 5), 10) union:gp(seed=0,gen=10)     0.000     0.000      NaN     NaN
+  union             mul(ts_min(ts_min(k8_101, 10), 10), ts_min(k8_101, 10)) union:gp(seed=0,gen=11)     0.000     0.000      NaN     NaN
+  union                                 ts_min(abs(ts_min(k8_101, 10)), 10) union:gp(seed=0,gen=11)     0.000     0.000      NaN     NaN
+  union                                                   sub(close, close) union:gp(seed=0,gen=12)     0.000     0.000      NaN     NaN
+  union                                          ts_min(ts_min(k8, 10), 10) union:gp(seed=0,gen=12)     0.000     0.000      NaN     NaN
+  union                                      ts_min(ts_min(k8_202, 10), 10) union:gp(seed=0,gen=12)     0.000     0.000      NaN     NaN
+  union                           sub(ts_min(close, 10), ts_min(close, 10)) union:gp(seed=0,gen=14)     0.000     0.000      NaN     NaN
+  union                                      ts_mean(ts_min(k8_101, 10), 5) union:gp(seed=0,gen=14)     0.000     0.000      NaN     NaN
+  union                                     ts_delay(sub(close, close), 10) union:gp(seed=0,gen=15)     0.000     0.000      NaN     NaN
+  union               ts_min(sub(ts_min(close, 10), ts_min(close, 10)), 10) union:gp(seed=0,gen=15)     0.000     0.000      NaN     NaN
+  union             sub(ts_min(ts_min(k8_101, 10), 10), ts_min(k8_101, 10)) union:gp(seed=0,gen=16)     0.000     0.000      NaN     NaN
+  union                           ts_min(ts_min(sub(close, close), 10), 10) union:gp(seed=0,gen=16)     0.000     0.000      NaN     NaN
+  union                                       ts_min(sub(close, close), 10) union:gp(seed=0,gen=17)     0.000     0.000      NaN     NaN
+  union              ts_min(ts_min(ts_min(ts_min(k8_101, 10), 10), 10), 10) union:gp(seed=0,gen=17)     0.000     0.000      NaN     NaN
+  union   ts_mean(ts_min(sub(ts_min(close, 10), ts_min(close, 10)), 10), 5) union:gp(seed=0,gen=18)     0.000     0.000      NaN     NaN
+  union   sub(sub(ts_min(close, 10), close), sub(ts_min(close, 10), close)) union:gp(seed=0,gen=19)     0.000     0.000      NaN     NaN
+  union   sub(close, sub(ts_min(close, 10), sub(ts_min(close, 10), close))) union:gp(seed=0,gen=20)     0.000     0.000      NaN     NaN
+  union                                  abs(sub(insider_opp, insider_opp)) union:gp(seed=0,gen=21)     0.000     0.000      NaN     NaN
+  union                                    ts_delta(ts_min(k8_101, 63), 63) union:gp(seed=0,gen=21)     0.000     0.000      NaN     NaN
+  union               sub(ts_min(ts_min(ts_min(close, 10), 10), 10), close) union:gp(seed=0,gen=21)     0.043     0.039   -0.007  -0.422
+  union                                              sub(abs(close), close) union:gp(seed=0,gen=22)     0.000     0.000      NaN     NaN
+  union                                           rank(ts_min(k8_202, 252)) union:gp(seed=0,gen=26)     0.000     0.000      NaN     NaN
+  union                                                  ts_min(k8_101, 21) union:gp(seed=0,gen=27)     0.000     0.000      NaN     NaN
+  union                                                         sign(close) union:gp(seed=0,gen=28)     0.000     0.000      NaN     NaN
+  union                                            sub(div(roe, bm), close) union:gp(seed=0,gen=28)     0.035     0.037    0.022   1.314
+                         strategy  SR_gross  SR_net  turnover_daily  avg_gross_lev  SR_net_2010_21  SR_net_2022_26  maxDD
+      agent EW monthly L/S [test]     0.228  -0.062           0.017          1.000             NaN          -0.062 -0.077
+   agent ridge monthly L/S [test]     0.228  -0.062           0.017          1.000             NaN          -0.062 -0.077
+agent LightGBM monthly L/S [test]     0.187  -0.315           0.056          1.000             NaN          -0.315 -0.120
+         gp EW monthly L/S [test]     0.637   0.252           0.050          1.000             NaN           0.252 -0.050
+      gp ridge monthly L/S [test]     0.593   0.216           0.050          1.000             NaN           0.216 -0.062
+   gp LightGBM monthly L/S [test]     0.858   0.375           0.058          1.000             NaN           0.375 -0.074
+      union EW monthly L/S [test]     0.597   0.228           0.053          1.000             NaN           0.228 -0.062
+   union ridge monthly L/S [test]     0.586   0.260           0.047          1.000             NaN           0.260 -0.068
+union LightGBM monthly L/S [test]     0.944   0.548           0.053          1.000             NaN           0.548 -0.063
+                             strategy  SR_gross  SR_net  turnover_daily  avg_gross_lev  SR_net_2010_21  SR_net_2022_26  maxDD
+      agent EW optimiser g=1.0 [test]     0.288  -0.117           0.002          1.000             NaN          -0.117 -0.114
+agent LightGBM optimiser g=0.2 [test]     0.729   0.337           0.029          1.000             NaN           0.337 -0.047
+         gp EW optimiser g=0.5 [test]     0.805   0.416           0.005          1.000             NaN           0.416 -0.071
+   gp LightGBM optimiser g=0.2 [test]     0.592   0.188           0.036          1.000             NaN           0.188 -0.074
+      union EW optimiser g=1.0 [test]     0.697   0.223           0.001          0.999             NaN           0.223 -0.064
+union LightGBM optimiser g=0.2 [test]     0.877   0.501           0.033          1.000             NaN           0.501 -0.056
+                                                   strategy  SR_net_test  ann_net
+round 3: s4_blend__optimiser_slow=LightGBM_fast_w=0.0_g=0.5     0.797907 0.029517
+          round 3: s4_alpha__composite_LightGBM_monthly_L-S     0.039552 0.001065
+ round 3: s3_dlsa__Attention_Factors_lite_K=10_cost-in-loss     0.379679 0.060710
+family             alpha research test variants
+n_trials                                     15
+n_obs                                      1147
+best_variant                     union LightGBM
+best_sharpe_ann                        0.548131
+dsr_prob                               0.708605
+dsr_impl                        ml4t.diagnostic
+[  47.1 min] done
