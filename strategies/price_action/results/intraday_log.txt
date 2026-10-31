@@ -1,0 +1,15 @@
+SPY days 2698 2016-01-04 2026-10-29
+  SPY slippage 0.0 done
+  SPY slippage 0.001 done
+  SPY slippage 0.005 done
+  SPY slippage 0.01 done
+  SPY slippage 0.02 done
+  SPY slippage 0.03 done
+QQQ days 2697 2016-01-04 2026-10-29
+  QQQ slippage 0.0 done
+  QQQ slippage 0.001 done
+  QQQ slippage 0.005 done
+  QQQ slippage 0.01 done
+  QQQ slippage 0.02 done
+  QQQ slippage 0.03 done
+{'best': 'noise_vwap_voltarget|QQQ|0.001', 'best_SR_ann': 1.2941093774838912, 'n_variants': 18, 'dsr_prob': 0.9469946159243919}

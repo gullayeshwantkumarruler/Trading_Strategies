@@ -1,0 +1,5 @@
+bar,period,trades,win_rate,avg_win_R,avg_loss_R,expectancy_R,payoff,median_hold_bars,top7pct_share_of_profit
+daily,full,410,0.5293,1.3916,-0.5590,0.4734,2.4895,165.5000,0.4252
+daily,holdout,225,0.5867,1.2330,-0.5535,0.4945,2.2274,171.0000,0.3796
+weekly,full,146,0.6096,1.5317,-0.4274,0.7669,3.5842,108.0000,0.3926
+weekly,holdout,97,0.5464,1.3690,-0.4156,0.5595,3.2943,96.0000,0.4259

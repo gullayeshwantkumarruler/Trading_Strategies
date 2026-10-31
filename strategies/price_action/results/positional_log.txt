@@ -1,0 +1,5 @@
+faber done
+weekly trend done
+ath etf done
+ath stocks done
+{'best': 'faber|SPY|off1', 'best_SR_ann': 0.8465119089955211, 'n_variants': 214, 'dsr_prob': 0.999996067081336}

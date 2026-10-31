@@ -1,0 +1,76 @@
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+SPY done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+QQQ done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+IWM done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+DIA done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+SMH done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+XLK done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+MTUM done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+XLB done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+XLE done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+XLF done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+XLI done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+XLP done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+XLU done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+XLV done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\swing.py:83: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  brk = (h > ref_h.shift(1)) & setup.shift(1).fillna(False) & up
+XLY done
+{'best': 'ibs_low|XLP|close|2bp', 'best_SR_ann': 0.8537224698621647, 'n_variants': 992, 'dsr_prob': 0.8971006386150198}

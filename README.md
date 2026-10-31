@@ -19,6 +19,8 @@ else either fails to beat a simple baseline (equal weight, buy-and-hold) or lose
 | `strategies/papers2026/` | Round 2: replications of five 2026 papers (1 stock/bond/gold, 2 Wasserstein HMM, 3 tabular DL hybrid, 4 KellyBoost, 8 attribution-guided stat-arb) + ML4T engine cross-check |
 | `strategies/statarb/` | Round 3: equity stat arb (cost-aware construction, residual ladder, DLSA, Attention Factors), alpha library with point-in-time EDGAR fundamentals, free alt data (FINRA, Form 4, Lazy Prices), daily collector, MOSEK benchmark |
 | `strategies/alpha_research/` | Round 4: formulaic-alpha DSL, frozen referee, agent + GP alpha mining, Wikipedia/8-K alt data, sealed-test backtests |
+| `reports/Price action strategies by horizon.md` | Round 5 report: price action strategies on intraday, swing (daily) and positional (weekly+) horizons |
+| `strategies/price_action/` | Round 5: trade-level engine (stops, targets, trailing stops, MOC/next-open fills), swing, positional and intraday (Alpaca 1-minute) backtests |
 | `strategies/*/results/` | Metrics CSVs, logs and equity-curve PNGs from the runs |
 | `papers/README.md` | Links to every paper used (PDFs not redistributed) |
 
@@ -65,6 +67,27 @@ validity checks), then a one-shot sealed test 2022–26.
   below the round-3 slow optimiser's 0.80 on the same window.
 - A first run's referee admitted 62 degenerate GP formulas (floating-point tie noise); fixed with validity
   safeguards and re-mined — documented in the notes.
+
+## Round 5 results (price action by horizon, US ETFs)
+
+Notes: `research_notes/Price action strategies by horizon/` (`backtest_results_price_action.md` has every table);
+code: `strategies/price_action/`. Rules are run as published, with no parameter search. Every rule has a sealed
+holdout, a cost sweep and a deflated Sharpe ratio over all variants tried.
+
+- **Intraday** (Alpaca SIP 1-minute bars, 2016–Oct 2026): Noise Area breakout with a VWAP stop
+  (Zarattini, Aziz & Barbon 2024) holds up on QQQ (Sharpe 1.28 full, 1.31 out of sample, break-even cost > 3¢/share).
+  The same rule on SPY drops to Sharpe 0.00 out of sample. Opening-range breakout is weak after costs;
+  last-half-hour momentum and gap rules show no edge.
+- **Swing** (daily, 15 ETFs, holdout 2016–26): short-term mean reversion (RSI(2), RSI(3)+IBS, large-decline
+  pullback) keeps profit factor 1.5–1.9 and ~70% wins. Because it is in the market so little, its Sharpe trails
+  buy-and-hold: the combined book's holdout Sharpe is 0.72 vs SPY 0.87, with max drawdown −8% vs −34%.
+  Candlestick and bar patterns (NR7, inside bar, hammer, engulfing) show no edge.
+- **Positional** (weekly+): Faber 10-month SMA / GTAA5 and weekly trend filters give about buy-and-hold Sharpe with
+  smaller drawdowns. The all-time-high breakout with a 10×ATR trailing stop has positive per-trade
+  expectancy (+0.47R) but returns only 4–7%/yr as a portfolio.
+
+The intraday script needs a free Alpaca account. Put `ALPACA_API_KEY` and `ALPACA_SECRET_KEY` in a repo-root `.env`
+(git-ignored, never committed).
 
 ## Setup
 
