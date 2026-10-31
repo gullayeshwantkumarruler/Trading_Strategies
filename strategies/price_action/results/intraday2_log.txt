@@ -1,0 +1,30 @@
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\intraday2.py:31: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  return prev.reindex(pd.DatetimeIndex(days)).fillna(False).to_numpy(bool)
+SPY 2698 VIX-gate days 0.44 NR4 days 0.28
+  SPY slippage 0.001 done
+  SPY slippage 0.005 done
+  SPY slippage 0.01 done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\intraday2.py:31: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  return prev.reindex(pd.DatetimeIndex(days)).fillna(False).to_numpy(bool)
+QQQ 2697 VIX-gate days 0.44 NR4 days 0.26
+  QQQ slippage 0.001 done
+  QQQ slippage 0.005 done
+  QQQ slippage 0.01 done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\intraday2.py:31: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  return prev.reindex(pd.DatetimeIndex(days)).fillna(False).to_numpy(bool)
+IWM 2696 VIX-gate days 0.44 NR4 days 0.26
+  IWM slippage 0.001 done
+  IWM slippage 0.005 done
+  IWM slippage 0.01 done
+C:\Users\Acer\Pictures\research_papers\paper1\strategies\price_action\intraday2.py:31: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  return prev.reindex(pd.DatetimeIndex(days)).fillna(False).to_numpy(bool)
+DIA 2611 VIX-gate days 0.45 NR4 days 0.27
+  DIA slippage 0.001 done
+  DIA slippage 0.005 done
+  DIA slippage 0.01 done
+{
+ "best": "noise_vwap_voltarget|QQQ|0.001",
+ "best_SR_ann": 1.2941093774838912,
+ "n_variants": 36,
+ "dsr_prob": 0.4954762936841026
+}

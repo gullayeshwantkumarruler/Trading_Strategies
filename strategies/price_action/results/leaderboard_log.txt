@@ -1,0 +1,36 @@
+swing {"n": 165, "spa_vs_cash": {"spa_consistent": 0.0, "spa_lower": 0.0, "reality_check": 0.0}, "spa_vs_spy": {"spa_consistent": 0.5, "spa_lower": 0.316, "reality_check": 0.55}, "stepm_vs_cash": ["swing:ibs_low|QQQ", "swing:pullback|SMH", "swing:ibs_low|SMH", "swing:down3|SMH", "swing:brk20|SMH", "swing:ibs_low|XLK", "swing:brk20|XLK", "swing:ibs_low|MTUM", "swing:ibs_low|XLF", "swing:ibs_low|XLI"], "stepm_vs_spy": [], "pbo_window": "2014-04-07"}
+hybrid {"n": 53, "spa_vs_cash": {"spa_consistent": 0.002, "spa_lower": 0.002, "reality_check": 0.002}, "spa_vs_spy": {"spa_consistent": 0.93, "spa_lower": 0.52, "reality_check": 0.992}, "stepm_vs_cash": ["hybrid:double7|QQQ", "hybrid:jm|SPY", "hybrid:breadth|SPY", "hybrid:vix_ts|SPY", "hybrid:spy_vt|SPY", "hybrid:daa|multi"], "stepm_vs_spy": [], "pbo_window": "2008-05-02"}
+positional {"n": 54, "spa_vs_cash": {"spa_consistent": 0.02, "spa_lower": 0.02, "reality_check": 0.02}, "spa_vs_spy": {"spa_consistent": 0.948, "spa_lower": 0.692, "reality_check": 0.98}, "stepm_vs_cash": ["positional:faber|QQQ|off0", "positional:ath_atr|SMH", "positional:rs_rotation"], "stepm_vs_spy": [], "pbo_window": "2019-07-29"}
+intraday {"n": 46, "spa_vs_cash": {"spa_consistent": 0.006, "spa_lower": 0.006, "reality_check": 0.006}, "spa_vs_spy": {"spa_consistent": 0.544, "spa_lower": 0.362, "reality_check": 0.724}, "stepm_vs_cash": ["intraday:noise_base_voltarget|QQQ", "intraday:noise_vwap_voltarget|QQQ"], "stepm_vs_spy": [], "pbo_window": "2016-01-04"}
+                                  key  SR_dev  SR_holdout  SR_holdout_stress  CAGR_holdout  maxDD_holdout  SR_haircut  alpha_t  passes  stepm_vs_cash  score
+           intraday:noise_vwap_1x|QQQ    1.14        1.57               1.46          0.13          -0.08        0.52     3.23    True          False   0.99
+    intraday:noise_vwap_voltarget|QQQ    1.12        1.63               1.52          0.25          -0.15        0.55     3.25    True           True   0.96
+                   swing:rsi3_ibs|XLK    0.81        0.84               0.74          0.06          -0.06        0.37     2.63    True          False   0.94
+                      swing:down3|SMH    0.56        1.02               0.91          0.12          -0.13        0.23     3.39    True           True   0.93
+                    swing:ibs_low|QQQ    0.47        1.23               0.91          0.18          -0.15        0.03     2.50    True           True   0.91
+                   swing:rsi3_ibs|QQQ    0.90        0.76               0.64          0.05          -0.08        0.42     2.11    True          False   0.91
+                     hybrid:daa|multi    0.85        0.95               0.84          0.09          -0.19        0.19     1.92    True           True   0.90
+                    hybrid:spy_vt|SPY    0.64        0.95               0.89          0.10          -0.14        0.33     1.25    True           True   0.89
+                       swing:rsi2|XLY    0.71        0.80               0.62          0.06          -0.12        0.18     1.84    True          False   0.89
+                    swing:ibs_low|XLK    0.40        1.25               0.95          0.21          -0.20        0.09     2.60    True           True   0.89
+                      swing:down3|SPY    0.71        0.80               0.55          0.04          -0.13        0.31     2.04    True          False   0.88
+                       swing:rsi2|SPY    0.84        0.76               0.55          0.05          -0.11        0.46     1.72    True          False   0.87
+                    swing:ibs_low|SPY    0.79        0.92               0.52          0.10          -0.16        0.49     1.28    True          False   0.87
+                   hybrid:rsi2_hv|SPY    0.77        0.74               0.53          0.04          -0.11        0.36     1.63    True          False   0.86
+                    swing:ibs_low|DIA    0.73        0.83               0.40          0.09          -0.16        0.28     1.16    True          False   0.84
+                   hybrid:double7|SPY    0.82        0.69               0.52          0.06          -0.13        0.39     0.85    True          False   0.83
+                        hybrid:jm|SPY    0.75        0.78               0.77          0.09          -0.21        0.07     0.96    True           True   0.83
+                   swing:rsi2_ibs|SPY    0.82        0.69               0.52          0.04          -0.11        0.39     1.64    True          False   0.82
+                    swing:ibs_low|XLP    1.03        0.80               0.26          0.07          -0.19        0.58     1.56    True          False   0.80
+                hybrid:ensemble|multi    0.90        0.71               0.34          0.06          -0.13        0.37     0.51    True          False   0.80
+                  hybrid:faber_vt|SPY    0.76        0.70               0.64          0.07          -0.19        0.32     0.57    True          False   0.79
+                    swing:ibs_low|XLB    0.65        0.77               0.37          0.10          -0.20        0.01     1.11    True          False   0.79
+                   swing:pullback|SPY    0.79        0.58               0.42          0.03          -0.09        0.28     0.99    True          False   0.78
+                   hybrid:cum_rsi|SPY    0.80        0.55               0.34          0.03          -0.09        0.27     0.87    True          False   0.77
+                hybrid:double7_s5|SPY    0.65        0.62               0.33          0.04          -0.12        0.04     0.94    True          False   0.77
+                   hybrid:tsmom|multi    0.88        0.50               0.47          0.03          -0.15        0.22    -0.32    True          False   0.69
+            positional:faber|SPY|off0    0.79        0.50               0.50          0.06          -0.35        0.19    -1.34    True          False   0.63
+intraday:noise_vwap_voltarget_vix|QQQ    1.00        1.31               1.24          0.11          -0.07        0.00     2.48   False          False   0.90
+       intraday:noise_vwap_1x_vix|QQQ    0.94        1.04               0.98          0.06          -0.05        0.00     1.92   False          False   0.90
+           intraday:noise_base_1x|QQQ    0.85        1.29               1.23          0.14          -0.07        0.00     2.62   False          False   0.90
+trials 1524 DSR {'best': 'swing:ibs_low|XLP', 'best_SR_ann': 0.853772850421098, 'n_variants': 318, 'dsr_prob': 0.8815012243865913}

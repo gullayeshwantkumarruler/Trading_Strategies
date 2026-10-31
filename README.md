@@ -20,7 +20,8 @@ else either fails to beat a simple baseline (equal weight, buy-and-hold) or lose
 | `strategies/statarb/` | Round 3: equity stat arb (cost-aware construction, residual ladder, DLSA, Attention Factors), alpha library with point-in-time EDGAR fundamentals, free alt data (FINRA, Form 4, Lazy Prices), daily collector, MOSEK benchmark |
 | `strategies/alpha_research/` | Round 4: formulaic-alpha DSL, frozen referee, agent + GP alpha mining, Wikipedia/8-K alt data, sealed-test backtests |
 | `reports/Price action strategies by horizon.md` | Round 5 report: price action strategies on intraday, swing (daily) and positional (weekly+) horizons |
-| `strategies/price_action/` | Round 5: trade-level engine (stops, targets, trailing stops, MOC/next-open fills), swing, positional and intraday (Alpaca 1-minute) backtests |
+| `strategies/price_action/` | Round 5: trade-level engine (stops, targets, trailing stops, MOC/next-open fills), swing, positional and intraday (Alpaca 1-minute) backtests; round 5b hybrids (`hybrid.py`, `intraday2.py`), robustness tests (`evaluate.py`) and the cross-strategy scorecard (`leaderboard.py`) |
+| `reports/Price action hybrid strategies.md` | Round 5b report: more price action rules, price action combined with volume/volatility/regime/seasonality/cross-asset signals, and how to evaluate and rank them |
 | `strategies/*/results/` | Metrics CSVs, logs and equity-curve PNGs from the runs |
 | `papers/README.md` | Links to every paper used (PDFs not redistributed) |
 
@@ -85,6 +86,25 @@ holdout, a cost sweep and a deflated Sharpe ratio over all variants tried.
 - **Positional** (weekly+): Faber 10-month SMA / GTAA5 and weekly trend filters give about buy-and-hold Sharpe with
   smaller drawdowns. The all-time-high breakout with a 10×ATR trailing stop has positive per-trade
   expectancy (+0.47R) but returns only 4–7%/yr as a portfolio.
+
+## Round 5b results (price action hybrids and one leaderboard)
+
+Notes: `research_notes/Price action hybrid strategies/` (`backtest_results_hybrid.md` has every table). This round
+adds 53 daily rules and hybrids and 46 intraday variants, then scores all 318 price-action candidates from rounds 5
+and 5b on one scorecard. Every candidate is run at base and stressed costs on a sealed holdout. The scorecard
+includes a bootstrap Sharpe CI, Lo-adjusted Sharpe, a Harvey-Liu haircut, Newey-West alpha, PBO (CSCV), Hansen SPA,
+Romano-Wolf StepM and deflated Sharpe.
+
+- Every family beats cash after the data-snooping tests. **None beats SPY buy-and-hold**: SPA p-values vs SPY are
+  0.50-0.95, and StepM finds no strategy that does better than SPY. 27 of 318 candidates pass the gates (positive at 5x cost,
+  positive in development, positive haircut Sharpe).
+- Top score: Noise Area + VWAP stop on QQQ (2023-26 holdout Sharpe 1.57, 1.46 at 10x slippage, alpha t 3.2). The
+  same rule loses on IWM and DIA, and the VIX and NR4 gates make it worse.
+- The overlays that work are volatility targeting, DAA, the jump model and the VIX term structure. They have about
+  SPY's Sharpe with 20-40% smaller drawdowns. Short-term mean reversion (IBS, RSI(2)/(3), 3 down days, Double 7s)
+  remains a robust edge over cash.
+- Dropped: pre-FOMC drift (holdout Sharpe 0.03), Larry Williams breakout, VIX stretch, VWAP trend, overnight hold,
+  GEM, the credit filter.
 
 The intraday script needs a free Alpaca account. Put `ALPACA_API_KEY` and `ALPACA_SECRET_KEY` in a repo-root `.env`
 (git-ignored, never committed).

@@ -265,6 +265,7 @@ def main():
                              annual_turnover=float(to.loc[a:].sum() / (len(r.loc[a:]) / PPY_D))))
     df = pd.DataFrame(rows)
     df.to_csv(data.RES / "positional_all.csv", index=False, float_format="%.4f")
+    pd.DataFrame(series).to_parquet(data.DATA / "positional_series.parquet")
     dsr = E.deflated_sharpe([v.rename(k) for k, v in series.items()], PPY_D)
     (data.RES / "positional_dsr.json").write_text(json.dumps(dsr, indent=1))
     print(dsr, flush=True)
